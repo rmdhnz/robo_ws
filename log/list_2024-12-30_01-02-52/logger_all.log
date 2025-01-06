@@ -1,0 +1,96 @@
+[2.272s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/divspanpi2/robo_ws']
+[2.273s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/divspanpi2/robo_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8a9a1e10>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff8abddba0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff8abddba0>>)
+[7.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.772s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/divspanpi2/robo_ws'
+[7.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extensions ['ignore', 'ignore_ament_install']
+[7.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'ignore'
+[7.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'ignore_ament_install'
+[7.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extensions ['colcon_pkg']
+[7.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'colcon_pkg'
+[7.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extensions ['colcon_meta']
+[7.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'colcon_meta'
+[7.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extensions ['ros']
+[7.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'ros'
+[7.956s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extensions ['cmake', 'python']
+[7.957s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'cmake'
+[7.957s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'python'
+[7.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extensions ['python_setup_py']
+[7.958s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws) by extension 'python_setup_py'
+[7.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[7.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/build) by extension 'ignore'
+[7.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/build) ignored
+[7.962s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[7.963s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/install) by extension 'ignore'
+[7.964s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/install) ignored
+[7.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[7.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/log) by extension 'ignore'
+[7.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/log) ignored
+[7.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[7.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'ignore'
+[7.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'ignore_ament_install'
+[7.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extensions ['colcon_pkg']
+[7.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'colcon_pkg'
+[7.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extensions ['colcon_meta']
+[7.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'colcon_meta'
+[7.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extensions ['ros']
+[7.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'ros'
+[7.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extensions ['cmake', 'python']
+[7.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'cmake'
+[7.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'python'
+[7.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extensions ['python_setup_py']
+[7.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src) by extension 'python_setup_py'
+[7.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[7.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extension 'ignore'
+[7.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extension 'ignore_ament_install'
+[7.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extensions ['colcon_pkg']
+[7.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extension 'colcon_pkg'
+[7.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extensions ['colcon_meta']
+[7.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extension 'colcon_meta'
+[7.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extensions ['ros']
+[7.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/bno055) by extension 'ros'
+[7.998s] DEBUG:colcon.colcon_core.package_identification:Package '/home/divspanpi2/robo_ws/src/bno055' with type 'ros.ament_python' and name 'bno055'
+[7.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extensions ['ignore', 'ignore_ament_install']
+[8.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extension 'ignore'
+[8.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extension 'ignore_ament_install'
+[8.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extensions ['colcon_pkg']
+[8.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extension 'colcon_pkg'
+[8.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extensions ['colcon_meta']
+[8.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extension 'colcon_meta'
+[8.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extensions ['ros']
+[8.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/joy) by extension 'ros'
+[8.010s] DEBUG:colcon.colcon_core.package_identification:Package '/home/divspanpi2/robo_ws/src/joy' with type 'ros.ament_cmake' and name 'joy'
+[8.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extensions ['ignore', 'ignore_ament_install']
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extension 'ignore'
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extension 'ignore_ament_install'
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extensions ['colcon_pkg']
+[8.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extension 'colcon_pkg'
+[8.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extensions ['colcon_meta']
+[8.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extension 'colcon_meta'
+[8.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extensions ['ros']
+[8.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/nexus) by extension 'ros'
+[8.023s] DEBUG:colcon.colcon_core.package_identification:Package '/home/divspanpi2/robo_ws/src/nexus' with type 'ros.ament_cmake' and name 'nexus'
+[8.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extensions ['ignore', 'ignore_ament_install']
+[8.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extension 'ignore'
+[8.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extension 'ignore_ament_install'
+[8.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extensions ['colcon_pkg']
+[8.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extension 'colcon_pkg'
+[8.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extensions ['colcon_meta']
+[8.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extension 'colcon_meta'
+[8.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extensions ['ros']
+[8.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/robot) by extension 'ros'
+[8.037s] DEBUG:colcon.colcon_core.package_identification:Package '/home/divspanpi2/robo_ws/src/robot' with type 'ros.ament_python' and name 'robot'
+[8.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[8.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extension 'ignore'
+[8.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extension 'ignore_ament_install'
+[8.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extensions ['colcon_pkg']
+[8.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extension 'colcon_pkg'
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extensions ['colcon_meta']
+[8.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extension 'colcon_meta'
+[8.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extensions ['ros']
+[8.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/divspanpi2/robo_ws/src/rplidar_ros) by extension 'ros'
+[8.051s] DEBUG:colcon.colcon_core.package_identification:Package '/home/divspanpi2/robo_ws/src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[8.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

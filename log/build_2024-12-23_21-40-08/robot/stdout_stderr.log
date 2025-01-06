@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing robot.egg-info/PKG-INFO
+writing dependency_links to robot.egg-info/dependency_links.txt
+writing entry points to robot.egg-info/entry_points.txt
+writing requirements to robot.egg-info/requires.txt
+writing top-level names to robot.egg-info/top_level.txt
+reading manifest file 'robot.egg-info/SOURCES.txt'
+writing manifest file 'robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot.egg-link (link to .)
+Installing node_keyboard script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+Installing node_serial script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+
+Installed /home/divspanpi2/robo_ws/build/robot
+running symlink_data
+symbolically linking /home/divspanpi2/robo_ws/build/robot/resource/robot -> /home/divspanpi2/robo_ws/install/robot/share/ament_index/resource_index/packages
+symbolically linking /home/divspanpi2/robo_ws/build/robot/package.xml -> /home/divspanpi2/robo_ws/install/robot/share/robot

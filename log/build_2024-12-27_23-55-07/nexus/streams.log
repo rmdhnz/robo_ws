@@ -1,0 +1,67 @@
+[0.054s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[0.187s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.878s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.075s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.089s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.114s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.383s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.391s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.648s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.792s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[2.830s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.984s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.255s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[4.571s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.596s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.258s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.283s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.307s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.940s] -- Found Qhull version 8.0.2
+[6.592s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.285s] [33mCMake Warning (dev) at CMakeLists.txt:19 (find_package):
+[7.285s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[7.285s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[7.286s]   command to set the policy and suppress this warning.
+[7.286s] 
+[7.286s]   CMake variable PCL_ROOT is set to:
+[7.286s] 
+[7.287s]     /usr
+[7.287s] 
+[7.287s]   For compatibility, CMake is ignoring the variable.
+[7.288s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.288s] [0m
+[7.703s] -- Configuring done
+[7.943s] -- Generating done
+[7.957s] -- Build files have been written to: /home/divspanpi2/robo_ws/build/nexus
+[8.128s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[8.143s] gmake[2]: Warning: File '/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp' has modification time 25177 s in the future
+[8.179s] [ 25%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o[0m
+[8.225s] [ 75%] Built target main_node
+[91.512s] [100%] [32m[1mLinking CXX executable icp_node[0m
+[98.802s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[98.835s] [100%] Built target icp_node
+[98.875s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[99.062s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus
+[99.092s] -- Install configuration: ""
+[99.098s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node
+[99.100s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node
+[99.145s] -- Set runtime path of "/home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node" to ""
+[99.146s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus
+[99.147s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus
+[99.148s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh
+[99.148s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv
+[99.149s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh
+[99.150s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv
+[99.151s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash
+[99.151s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh
+[99.151s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh
+[99.152s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv
+[99.153s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv
+[99.154s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus
+[99.155s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake
+[99.155s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake
+[99.155s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml
+[99.162s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus

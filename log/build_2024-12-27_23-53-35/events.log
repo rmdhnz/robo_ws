@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.001769] (-) JobUnselected: {'identifier': 'bno055'}
+[0.002269] (-) JobUnselected: {'identifier': 'joy'}
+[0.002449] (-) JobUnselected: {'identifier': 'robot'}
+[0.002528] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002612] (nexus) JobQueued: {'identifier': 'nexus', 'dependencies': OrderedDict()}
+[0.002700] (nexus) JobStarted: {'identifier': 'nexus'}
+[0.043636] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'cmake'}
+[0.048955] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'build'}
+[0.053320] (nexus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspanpi2/robo_ws/build/nexus', '--', '-j4', '-l4'], 'cwd': '/home/divspanpi2/robo_ws/build/nexus', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.1.184 49036 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/1'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/nexus'), ('SSH_CONNECTION', '192.168.1.184 49036 192.168.1.227 22'), ('_P9K_TTY', '/dev/pts/1'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.098656] (-) TimerEvent: {}
+[0.175982] (nexus) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198850] (-) TimerEvent: {}
+[0.299636] (-) TimerEvent: {}
+[0.400256] (-) TimerEvent: {}
+[0.500881] (-) TimerEvent: {}
+[0.601508] (-) TimerEvent: {}
+[0.702267] (-) TimerEvent: {}
+[0.763287] (nexus) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.802420] (-) TimerEvent: {}
+[0.903168] (-) TimerEvent: {}
+[0.941213] (nexus) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.951660] (nexus) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.975121] (nexus) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.003349] (-) TimerEvent: {}
+[1.014094] (nexus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.063960] (nexus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.103557] (-) TimerEvent: {}
+[1.191220] (nexus) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.197279] (nexus) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.203700] (-) TimerEvent: {}
+[1.304395] (-) TimerEvent: {}
+[1.405050] (-) TimerEvent: {}
+[1.505710] (-) TimerEvent: {}
+[1.606370] (-) TimerEvent: {}
+[1.707073] (-) TimerEvent: {}
+[1.807793] (-) TimerEvent: {}
+[1.908503] (-) TimerEvent: {}
+[2.009243] (-) TimerEvent: {}
+[2.109918] (-) TimerEvent: {}
+[2.171427] (nexus) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.210114] (-) TimerEvent: {}
+[2.310801] (-) TimerEvent: {}
+[2.355694] (nexus) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.410980] (-) TimerEvent: {}
+[2.465959] (nexus) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[2.500151] (nexus) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.511184] (-) TimerEvent: {}
+[2.611902] (-) TimerEvent: {}
+[2.633809] (nexus) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.712064] (-) TimerEvent: {}
+[2.812730] (-) TimerEvent: {}
+[2.891298] (nexus) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[2.912922] (-) TimerEvent: {}
+[3.013684] (-) TimerEvent: {}
+[3.114425] (-) TimerEvent: {}
+[3.215443] (-) TimerEvent: {}
+[3.316237] (-) TimerEvent: {}
+[3.417017] (-) TimerEvent: {}
+[3.517799] (-) TimerEvent: {}
+[3.618544] (-) TimerEvent: {}
+[3.719237] (-) TimerEvent: {}
+[3.820052] (-) TimerEvent: {}
+[3.921114] (-) TimerEvent: {}
+[4.021824] (-) TimerEvent: {}
+[4.122583] (-) TimerEvent: {}
+[4.126992] (nexus) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.152326] (nexus) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.222753] (-) TimerEvent: {}
+[4.323515] (-) TimerEvent: {}
+[4.424254] (-) TimerEvent: {}
+[4.525072] (-) TimerEvent: {}
+[4.625838] (-) TimerEvent: {}
+[4.726507] (-) TimerEvent: {}
+[4.777379] (nexus) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.804316] (nexus) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.826746] (-) TimerEvent: {}
+[4.830364] (nexus) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.926979] (-) TimerEvent: {}
+[5.027961] (-) TimerEvent: {}
+[5.128684] (-) TimerEvent: {}
+[5.229359] (-) TimerEvent: {}
+[5.330086] (-) TimerEvent: {}
+[5.425162] (nexus) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.430287] (-) TimerEvent: {}
+[5.530999] (-) TimerEvent: {}
+[5.631767] (-) TimerEvent: {}
+[5.732448] (-) TimerEvent: {}
+[5.833136] (-) TimerEvent: {}
+[5.933947] (-) TimerEvent: {}
+[6.034725] (-) TimerEvent: {}
+[6.041663] (nexus) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.134966] (-) TimerEvent: {}
+[6.235748] (-) TimerEvent: {}
+[6.336457] (-) TimerEvent: {}
+[6.437183] (-) TimerEvent: {}
+[6.538042] (-) TimerEvent: {}
+[6.638772] (-) TimerEvent: {}
+[6.673262] (nexus) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:19 (find_package):\n'}
+[6.673901] (nexus) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[6.674222] (nexus) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[6.674505] (nexus) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[6.674777] (nexus) StderrLine: {'line': b'\n'}
+[6.675095] (nexus) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[6.675391] (nexus) StderrLine: {'line': b'\n'}
+[6.675819] (nexus) StderrLine: {'line': b'    /usr\n'}
+[6.676142] (nexus) StderrLine: {'line': b'\n'}
+[6.676429] (nexus) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[6.676697] (nexus) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.676966] (nexus) StderrLine: {'line': b'\x1b[0m\n'}
+[6.738961] (-) TimerEvent: {}
+[6.839701] (-) TimerEvent: {}
+[6.940339] (-) TimerEvent: {}
+[7.039788] (nexus) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.040398] (-) TimerEvent: {}
+[7.141005] (-) TimerEvent: {}
+[7.241690] (-) TimerEvent: {}
+[7.248006] (nexus) StdoutLine: {'line': b'-- Generating done\n'}
+[7.259073] (nexus) StdoutLine: {'line': b'-- Build files have been written to: /home/divspanpi2/robo_ws/build/nexus\n'}
+[7.341907] (-) TimerEvent: {}
+[7.411687] (nexus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main_node\x1b[0m\n'}
+[7.422704] (nexus) StderrLine: {'line': b"gmake[2]: Warning: File '/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp' has modification time 24471 s in the future\n"}
+[7.442111] (-) TimerEvent: {}
+[7.454573] (nexus) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o\x1b[0m\n'}
+[7.501461] (nexus) StdoutLine: {'line': b'[ 75%] Built target main_node\n'}
+[7.542296] (-) TimerEvent: {}
+[7.642994] (-) TimerEvent: {}
+[7.743678] (-) TimerEvent: {}
+[7.844370] (-) TimerEvent: {}
+[7.945093] (-) TimerEvent: {}
+[8.045754] (-) TimerEvent: {}
+[8.146415] (-) TimerEvent: {}
+[8.247100] (-) TimerEvent: {}
+[8.347822] (-) TimerEvent: {}
+[8.448504] (-) TimerEvent: {}
+[8.549217] (-) TimerEvent: {}
+[8.649877] (-) TimerEvent: {}
+[8.750580] (-) TimerEvent: {}
+[8.851264] (-) TimerEvent: {}
+[8.952249] (-) TimerEvent: {}
+[9.052943] (-) TimerEvent: {}
+[9.153726] (-) TimerEvent: {}
+[9.254440] (-) TimerEvent: {}
+[9.327582] (nexus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Klaser_geometry/laser_geometry.hpp: No such file or directory\n'}
+[9.328156] (nexus) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<laser_geometry/laser_geometry.hpp>\x1b[m\x1b[K\n'}
+[9.328462] (nexus) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.328734] (nexus) StderrLine: {'line': b'compilation terminated.\n'}
+[9.339671] (nexus) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o] Error 1\n'}
+[9.340499] (nexus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/icp_node.dir/all] Error 2\n'}
+[9.341393] (nexus) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.349302] (nexus) CommandEnded: {'returncode': 2}
+[9.356058] (-) TimerEvent: {}
+[9.457192] (-) TimerEvent: {}
+[9.549836] (nexus) JobEnded: {'identifier': 'nexus', 'rc': 2}
+[9.557305] (-) TimerEvent: {}
+[9.561227] (-) EventReactorShutdown: {}

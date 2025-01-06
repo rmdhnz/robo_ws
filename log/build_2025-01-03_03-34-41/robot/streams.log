@@ -1,0 +1,33 @@
+[2.785s] Invoking command in '/home/divspanpi2/robo_ws/src/robot': PYTHONPATH=/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/divspanpi2/robo_ws/build/robot/build install --record /home/divspanpi2/robo_ws/build/robot/install.log --single-version-externally-managed install_data
+[3.911s] running egg_info
+[3.913s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[3.914s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[3.915s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[3.916s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[3.916s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[3.926s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.927s] adding license file 'LICENSE'
+[3.929s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.930s] running build
+[3.930s] running build_py
+[3.932s] copying robot/lidar.py -> /home/divspanpi2/robo_ws/build/robot/build/lib/robot
+[3.934s] running install
+[3.935s] running install_lib
+[3.939s] copying /home/divspanpi2/robo_ws/build/robot/build/lib/robot/lidar.py -> /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot
+[3.942s] byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/save_odom.py to save_odom.cpython-310.pyc
+[3.945s] byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/save_imu.py to save_imu.cpython-310.pyc
+[3.948s] byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/lidar.py to lidar.cpython-310.pyc
+[3.951s] byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/node_serial.py to node_serial.cpython-310.pyc
+[3.956s] byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/node_bno.py to node_bno.cpython-310.pyc
+[3.958s] running install_data
+[3.959s] running install_egg_info
+[3.966s] removing '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[3.968s] Copying ../../build/robot/robot.egg-info to /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[3.973s] running install_scripts
+[4.052s] Installing lidar script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+[4.053s] Installing node_bno script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+[4.054s] Installing node_serial script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+[4.054s] Installing save_imu script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+[4.055s] Installing save_odom script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+[4.057s] writing list of installed files to '/home/divspanpi2/robo_ws/build/robot/install.log'
+[4.174s] Invoked command in '/home/divspanpi2/robo_ws/src/robot' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/divspanpi2/robo_ws/build/robot/build install --record /home/divspanpi2/robo_ws/build/robot/install.log --single-version-externally-managed install_data

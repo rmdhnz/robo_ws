@@ -1,0 +1,18 @@
+[console_scripts]
+ekf_fusion_node = my_robot_controller.ekf_fusion:main
+fusion_node = my_robot_controller.fusion_node:main
+icp_node = my_robot_controller.icp_algorithm:main
+imu_filtered_node = my_robot_controller.imu_filtered:main
+imu_node = my_robot_controller.imu_sens:main
+imu_raw_data = my_robot_controller.imu_raw_data:main
+lidar_node = my_robot_controller.lidar_node:main
+nav_test_node = my_robot_controller.nav_tes:main
+obstacle_monitor = my_robot_controller.obstacle_monitor:main
+odom_filtered_node = my_robot_controller.odom_filtered:main
+odom_node = my_robot_controller.odom_node:main
+odom_raw_data = my_robot_controller.odom_raw_data:main
+path_listener = my_robot_controller.path_listener:main
+path_saver = my_robot_controller.save_path:main
+tracking_object = my_robot_controller.tracking_object:main
+turtle_controller = my_robot_controller.turtle_controller:main
+

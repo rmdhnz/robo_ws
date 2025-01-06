@@ -1,0 +1,145 @@
+[5.490s] Invoking command in '/home/divspanpi2/robo_ws/src/my_robot_controller': PYTHONPATH=/home/divspanpi2/robo_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/divspanpi2/robo_ws/build/my_robot_controller/build install --record /home/divspanpi2/robo_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[7.100s] running egg_info
+[7.105s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[7.107s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[7.110s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[7.114s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[7.116s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[7.118s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[7.120s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.135s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.144s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.145s] running build
+[7.147s] running build_py
+[7.151s] creating /home/divspanpi2/robo_ws/build/my_robot_controller/build
+[7.152s] creating /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib
+[7.154s] creating /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.156s] copying my_robot_controller/interpolasi.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.158s] copying my_robot_controller/ekf_accel_obs.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.159s] copying my_robot_controller/dynamic_bias.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.161s] copying my_robot_controller/ekf_accel.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.163s] copying my_robot_controller/nav_tes.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.165s] copying my_robot_controller/kalman_node.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.167s] copying my_robot_controller/imu_mechanization.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.169s] copying my_robot_controller/turtle_controller.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.172s] copying my_robot_controller/dynamic.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.174s] copying my_robot_controller/fusion_node.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.176s] copying my_robot_controller/lidar_icp.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.178s] copying my_robot_controller/data_visualization.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.181s] copying my_robot_controller/imu_raw_data.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.184s] copying my_robot_controller/obstacle_monitor.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.186s] copying my_robot_controller/ekf_gyro.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.188s] copying my_robot_controller/odom_node.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.191s] copying my_robot_controller/__init__.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.195s] copying my_robot_controller/path_listener.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.197s] copying my_robot_controller/special_func.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.199s] copying my_robot_controller/ekf_fusion.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.201s] copying my_robot_controller/nav2_test.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.204s] copying my_robot_controller/odom_raw_data.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.206s] copying my_robot_controller/sensor_fusion.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.208s] copying my_robot_controller/imu_filtered.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.211s] copying my_robot_controller/tracking_object.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.213s] copying my_robot_controller/odom_filtered.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.216s] copying my_robot_controller/imu_sens.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.219s] copying my_robot_controller/tes.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.221s] copying my_robot_controller/icp_algorithm.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.224s] copying my_robot_controller/save_path.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.226s] copying my_robot_controller/slip_compensation.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.228s] copying my_robot_controller/lidar_node.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.230s] copying my_robot_controller/dynamic_imu_mechanization.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.236s] running install
+[7.240s] running install_lib
+[7.245s] creating /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.247s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/interpolasi.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.250s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/ekf_accel_obs.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.252s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/dynamic_bias.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.255s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/ekf_accel.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.257s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/nav_tes.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.259s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/kalman_node.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.262s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_mechanization.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.264s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.267s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/dynamic.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.271s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/fusion_node.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.274s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/lidar_icp.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.276s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/data_visualization.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.279s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_raw_data.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.281s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/obstacle_monitor.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.284s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/ekf_gyro.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.286s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/odom_node.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.289s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.290s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/path_listener.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.291s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/special_func.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.292s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/ekf_fusion.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.294s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/nav2_test.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.295s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/odom_raw_data.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.296s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/sensor_fusion.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.297s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_filtered.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.298s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/tracking_object.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.299s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/odom_filtered.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.303s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_sens.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.307s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/tes.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.310s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/icp_algorithm.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.312s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/save_path.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.314s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/slip_compensation.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.316s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/lidar_node.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.319s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/dynamic_imu_mechanization.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[7.325s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/interpolasi.py to interpolasi.cpython-310.pyc
+[7.334s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ekf_accel_obs.py to ekf_accel_obs.cpython-310.pyc
+[7.339s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dynamic_bias.py to dynamic_bias.cpython-310.pyc
+[7.348s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ekf_accel.py to ekf_accel.cpython-310.pyc
+[7.358s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/nav_tes.py to nav_tes.cpython-310.pyc
+[7.363s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/kalman_node.py to kalman_node.cpython-310.pyc
+[7.369s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imu_mechanization.py to imu_mechanization.cpython-310.pyc
+[7.376s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[7.384s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dynamic.py to dynamic.cpython-310.pyc
+[7.393s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/fusion_node.py to fusion_node.cpython-310.pyc
+[7.398s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/lidar_icp.py to lidar_icp.cpython-310.pyc
+[7.400s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/data_visualization.py to data_visualization.cpython-310.pyc
+[7.407s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imu_raw_data.py to imu_raw_data.cpython-310.pyc
+[7.413s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/obstacle_monitor.py to obstacle_monitor.cpython-310.pyc
+[7.417s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ekf_gyro.py to ekf_gyro.cpython-310.pyc
+[7.424s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/odom_node.py to odom_node.cpython-310.pyc
+[7.432s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[7.433s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/path_listener.py to path_listener.cpython-310.pyc
+[7.438s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/special_func.py to special_func.cpython-310.pyc
+[7.439s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/ekf_fusion.py to ekf_fusion.cpython-310.pyc
+[7.452s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/nav2_test.py to nav2_test.cpython-310.pyc
+[7.454s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/odom_raw_data.py to odom_raw_data.cpython-310.pyc
+[7.458s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/sensor_fusion.py to sensor_fusion.cpython-310.pyc
+[7.465s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imu_filtered.py to imu_filtered.cpython-310.pyc
+[7.472s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/tracking_object.py to tracking_object.cpython-310.pyc
+[7.477s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/odom_filtered.py to odom_filtered.cpython-310.pyc
+[7.482s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imu_sens.py to imu_sens.cpython-310.pyc
+[7.490s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/tes.py to tes.cpython-310.pyc
+[7.493s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/icp_algorithm.py to icp_algorithm.cpython-310.pyc
+[7.502s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/save_path.py to save_path.cpython-310.pyc
+[7.508s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/slip_compensation.py to slip_compensation.cpython-310.pyc
+[7.514s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/lidar_node.py to lidar_node.cpython-310.pyc
+[7.522s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dynamic_imu_mechanization.py to dynamic_imu_mechanization.cpython-310.pyc
+[7.530s] running install_data
+[7.535s] creating /home/divspanpi2/robo_ws/install/my_robot_controller/share/ament_index
+[7.539s] creating /home/divspanpi2/robo_ws/install/my_robot_controller/share/ament_index/resource_index
+[7.543s] creating /home/divspanpi2/robo_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[7.548s] copying resource/my_robot_controller -> /home/divspanpi2/robo_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[7.553s] copying package.xml -> /home/divspanpi2/robo_ws/install/my_robot_controller/share/my_robot_controller
+[7.557s] running install_egg_info
+[7.578s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[7.594s] running install_scripts
+[7.735s] Installing ekf_fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.736s] Installing fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.737s] Installing icp_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.737s] Installing imu_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.740s] Installing imu_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.742s] Installing imu_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.743s] Installing lidar_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.744s] Installing nav_test_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.745s] Installing obstacle_monitor script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.746s] Installing odom_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.747s] Installing odom_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.747s] Installing odom_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.748s] Installing path_listener script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.748s] Installing path_saver script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.749s] Installing tracking_object script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.760s] Installing turtle_controller script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[7.775s] writing list of installed files to '/home/divspanpi2/robo_ws/build/my_robot_controller/install.log'
+[7.945s] Invoked command in '/home/divspanpi2/robo_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/divspanpi2/robo_ws/build/my_robot_controller/build install --record /home/divspanpi2/robo_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+[0.090s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[0.684s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[0.891s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[1.396s] [ 75%] Built target icp_node
+[12.586s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:[m[K In member function ‘[01m[Kvoid MainNode::wheel_twist_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.586s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:53:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kthreshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.587s]    53 |     const float [01;35m[Kthreshold[m[K = 5;
+[12.587s]       |                 [01;35m[K^~~~~~~~~[m[K
+[56.728s] [100%] [32m[1mLinking CXX executable main_node[0m
+[60.076s] [100%] Built target main_node
+[60.115s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[60.302s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus
+[60.337s] -- Install configuration: ""
+[60.343s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node
+[60.399s] -- Set runtime path of "/home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node" to ""
+[60.405s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node
+[60.406s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus
+[60.408s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus
+[60.408s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh
+[60.409s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv
+[60.409s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh
+[60.410s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv
+[60.410s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash
+[60.411s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh
+[60.412s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh
+[60.412s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv
+[60.412s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv
+[60.414s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus
+[60.415s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake
+[60.416s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake
+[60.416s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml
+[60.429s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus

@@ -1,0 +1,23 @@
+[4.934s] Invoking command in '/home/divspanpi2/robo_ws/src/bno055': PYTHONPATH=/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/divspanpi2/robo_ws/build/bno055/build install --record /home/divspanpi2/robo_ws/build/bno055/install.log --single-version-externally-managed install_data
+[6.536s] running egg_info
+[6.539s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[6.540s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[6.541s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[6.542s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[6.543s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[6.555s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[6.557s] adding license file 'LICENSE'
+[6.557s] adding license file 'AUTHORS'
+[6.561s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[6.562s] running build
+[6.564s] running build_py
+[6.570s] running install
+[6.571s] running install_lib
+[6.582s] running install_data
+[6.584s] running install_egg_info
+[6.592s] removing '/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info' (and everything under it)
+[6.594s] Copying ../../build/bno055/bno055.egg-info to /home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info
+[6.601s] running install_scripts
+[6.695s] Installing bno055 script to /home/divspanpi2/robo_ws/install/bno055/lib/bno055
+[6.700s] writing list of installed files to '/home/divspanpi2/robo_ws/build/bno055/install.log'
+[6.844s] Invoked command in '/home/divspanpi2/robo_ws/src/bno055' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/divspanpi2/robo_ws/build/bno055/build install --record /home/divspanpi2/robo_ws/build/bno055/install.log --single-version-externally-managed install_data

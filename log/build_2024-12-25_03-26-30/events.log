@@ -1,0 +1,459 @@
+[0.000000] (-) TimerEvent: {}
+[0.001806] (-) JobUnselected: {'identifier': 'bno055'}
+[0.002378] (-) JobUnselected: {'identifier': 'joy'}
+[0.002469] (-) JobUnselected: {'identifier': 'robot'}
+[0.002545] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002628] (nexus) JobQueued: {'identifier': 'nexus', 'dependencies': OrderedDict()}
+[0.002715] (nexus) JobStarted: {'identifier': 'nexus'}
+[0.045776] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'cmake'}
+[0.049358] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'build'}
+[0.052872] (nexus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspanpi2/robo_ws/build/nexus', '--', '-j4', '-l4'], 'cwd': '/home/divspanpi2/robo_ws/build/nexus', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.69.3 47006 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/1'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/nexus'), ('SSH_CONNECTION', '192.168.69.3 47006 192.168.69.5 22'), ('_P9K_TTY', '/dev/pts/1'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[0.098610] (-) TimerEvent: {}
+[0.171834] (nexus) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198819] (-) TimerEvent: {}
+[0.299756] (-) TimerEvent: {}
+[0.400561] (-) TimerEvent: {}
+[0.501245] (-) TimerEvent: {}
+[0.601935] (-) TimerEvent: {}
+[0.702744] (-) TimerEvent: {}
+[0.803656] (nexus) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.804272] (-) TimerEvent: {}
+[0.904827] (-) TimerEvent: {}
+[0.989591] (nexus) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.001593] (nexus) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.004978] (-) TimerEvent: {}
+[1.026698] (nexus) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.068879] (nexus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.105154] (-) TimerEvent: {}
+[1.122689] (nexus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205343] (-) TimerEvent: {}
+[1.259802] (nexus) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.266898] (nexus) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.305525] (-) TimerEvent: {}
+[1.406206] (-) TimerEvent: {}
+[1.506865] (-) TimerEvent: {}
+[1.607528] (-) TimerEvent: {}
+[1.708239] (-) TimerEvent: {}
+[1.808954] (-) TimerEvent: {}
+[1.909702] (-) TimerEvent: {}
+[2.010456] (-) TimerEvent: {}
+[2.111245] (-) TimerEvent: {}
+[2.211973] (-) TimerEvent: {}
+[2.257128] (nexus) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.312152] (-) TimerEvent: {}
+[2.412827] (-) TimerEvent: {}
+[2.456686] (nexus) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.513005] (-) TimerEvent: {}
+[2.613734] (-) TimerEvent: {}
+[2.714574] (-) TimerEvent: {}
+[2.815402] (-) TimerEvent: {}
+[2.897414] (nexus) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.915626] (-) TimerEvent: {}
+[2.955630] (nexus) StdoutLine: {'line': b'-- Generating done\n'}
+[2.964129] (nexus) StdoutLine: {'line': b'-- Build files have been written to: /home/divspanpi2/robo_ws/build/nexus\n'}
+[3.015833] (-) TimerEvent: {}
+[3.076491] (nexus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main_node\x1b[0m\n'}
+[3.116034] (-) TimerEvent: {}
+[3.164878] (nexus) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o\x1b[0m\n'}
+[3.216248] (-) TimerEvent: {}
+[3.317029] (-) TimerEvent: {}
+[3.417688] (-) TimerEvent: {}
+[3.518344] (-) TimerEvent: {}
+[3.619003] (-) TimerEvent: {}
+[3.719721] (-) TimerEvent: {}
+[3.820694] (-) TimerEvent: {}
+[3.921385] (-) TimerEvent: {}
+[4.022107] (-) TimerEvent: {}
+[4.122828] (-) TimerEvent: {}
+[4.223524] (-) TimerEvent: {}
+[4.324287] (-) TimerEvent: {}
+[4.424992] (-) TimerEvent: {}
+[4.525687] (-) TimerEvent: {}
+[4.626361] (-) TimerEvent: {}
+[4.727135] (-) TimerEvent: {}
+[4.827903] (-) TimerEvent: {}
+[4.928820] (-) TimerEvent: {}
+[5.029618] (-) TimerEvent: {}
+[5.130407] (-) TimerEvent: {}
+[5.231389] (-) TimerEvent: {}
+[5.332492] (-) TimerEvent: {}
+[5.433361] (-) TimerEvent: {}
+[5.534145] (-) TimerEvent: {}
+[5.634933] (-) TimerEvent: {}
+[5.735852] (-) TimerEvent: {}
+[5.836771] (-) TimerEvent: {}
+[5.937553] (-) TimerEvent: {}
+[6.038325] (-) TimerEvent: {}
+[6.139268] (-) TimerEvent: {}
+[6.240141] (-) TimerEvent: {}
+[6.340952] (-) TimerEvent: {}
+[6.441849] (-) TimerEvent: {}
+[6.542630] (-) TimerEvent: {}
+[6.643534] (-) TimerEvent: {}
+[6.744454] (-) TimerEvent: {}
+[6.845378] (-) TimerEvent: {}
+[6.946133] (-) TimerEvent: {}
+[7.046928] (-) TimerEvent: {}
+[7.147927] (-) TimerEvent: {}
+[7.248812] (-) TimerEvent: {}
+[7.349736] (-) TimerEvent: {}
+[7.450591] (-) TimerEvent: {}
+[7.551335] (-) TimerEvent: {}
+[7.652251] (-) TimerEvent: {}
+[7.752986] (-) TimerEvent: {}
+[7.853734] (-) TimerEvent: {}
+[7.954504] (-) TimerEvent: {}
+[8.055284] (-) TimerEvent: {}
+[8.156135] (-) TimerEvent: {}
+[8.256897] (-) TimerEvent: {}
+[8.357656] (-) TimerEvent: {}
+[8.458408] (-) TimerEvent: {}
+[8.559182] (-) TimerEvent: {}
+[8.660100] (-) TimerEvent: {}
+[8.760900] (-) TimerEvent: {}
+[8.861788] (-) TimerEvent: {}
+[8.962656] (-) TimerEvent: {}
+[9.063417] (-) TimerEvent: {}
+[9.164416] (-) TimerEvent: {}
+[9.265455] (-) TimerEvent: {}
+[9.366423] (-) TimerEvent: {}
+[9.467624] (-) TimerEvent: {}
+[9.568411] (-) TimerEvent: {}
+[9.669200] (-) TimerEvent: {}
+[9.769975] (-) TimerEvent: {}
+[9.870762] (-) TimerEvent: {}
+[9.971634] (-) TimerEvent: {}
+[10.072416] (-) TimerEvent: {}
+[10.173180] (-) TimerEvent: {}
+[10.273938] (-) TimerEvent: {}
+[10.374699] (-) TimerEvent: {}
+[10.475535] (-) TimerEvent: {}
+[10.576374] (-) TimerEvent: {}
+[10.677227] (-) TimerEvent: {}
+[10.777964] (-) TimerEvent: {}
+[10.878750] (-) TimerEvent: {}
+[10.979582] (-) TimerEvent: {}
+[11.080434] (-) TimerEvent: {}
+[11.181368] (-) TimerEvent: {}
+[11.282268] (-) TimerEvent: {}
+[11.383210] (-) TimerEvent: {}
+[11.484155] (-) TimerEvent: {}
+[11.585039] (-) TimerEvent: {}
+[11.685846] (-) TimerEvent: {}
+[11.786589] (-) TimerEvent: {}
+[11.887404] (-) TimerEvent: {}
+[11.988250] (-) TimerEvent: {}
+[12.089008] (-) TimerEvent: {}
+[12.189797] (-) TimerEvent: {}
+[12.290585] (-) TimerEvent: {}
+[12.391444] (-) TimerEvent: {}
+[12.492366] (-) TimerEvent: {}
+[12.593148] (-) TimerEvent: {}
+[12.693937] (-) TimerEvent: {}
+[12.794747] (-) TimerEvent: {}
+[12.895509] (-) TimerEvent: {}
+[12.996326] (-) TimerEvent: {}
+[13.097152] (-) TimerEvent: {}
+[13.198042] (-) TimerEvent: {}
+[13.299108] (-) TimerEvent: {}
+[13.400032] (-) TimerEvent: {}
+[13.500798] (-) TimerEvent: {}
+[13.601543] (-) TimerEvent: {}
+[13.702298] (-) TimerEvent: {}
+[13.803147] (-) TimerEvent: {}
+[13.904080] (-) TimerEvent: {}
+[14.004856] (-) TimerEvent: {}
+[14.105632] (-) TimerEvent: {}
+[14.206378] (-) TimerEvent: {}
+[14.307205] (-) TimerEvent: {}
+[14.408029] (-) TimerEvent: {}
+[14.508794] (-) TimerEvent: {}
+[14.609558] (-) TimerEvent: {}
+[14.710328] (-) TimerEvent: {}
+[14.811140] (-) TimerEvent: {}
+[14.911903] (-) TimerEvent: {}
+[15.012699] (-) TimerEvent: {}
+[15.113631] (-) TimerEvent: {}
+[15.214614] (-) TimerEvent: {}
+[15.315647] (-) TimerEvent: {}
+[15.416549] (-) TimerEvent: {}
+[15.517384] (-) TimerEvent: {}
+[15.618220] (-) TimerEvent: {}
+[15.718973] (-) TimerEvent: {}
+[15.819801] (-) TimerEvent: {}
+[15.920547] (-) TimerEvent: {}
+[16.021311] (-) TimerEvent: {}
+[16.122063] (-) TimerEvent: {}
+[16.222833] (-) TimerEvent: {}
+[16.323654] (-) TimerEvent: {}
+[16.424465] (-) TimerEvent: {}
+[16.525228] (-) TimerEvent: {}
+[16.625968] (-) TimerEvent: {}
+[16.726806] (-) TimerEvent: {}
+[16.827574] (-) TimerEvent: {}
+[16.928427] (-) TimerEvent: {}
+[17.029186] (-) TimerEvent: {}
+[17.129961] (-) TimerEvent: {}
+[17.230882] (-) TimerEvent: {}
+[17.331820] (-) TimerEvent: {}
+[17.432693] (-) TimerEvent: {}
+[17.533546] (-) TimerEvent: {}
+[17.634428] (-) TimerEvent: {}
+[17.735403] (-) TimerEvent: {}
+[17.836229] (-) TimerEvent: {}
+[17.936991] (-) TimerEvent: {}
+[18.037798] (-) TimerEvent: {}
+[18.138600] (-) TimerEvent: {}
+[18.239350] (-) TimerEvent: {}
+[18.340156] (-) TimerEvent: {}
+[18.440927] (-) TimerEvent: {}
+[18.541685] (-) TimerEvent: {}
+[18.642477] (-) TimerEvent: {}
+[18.743206] (-) TimerEvent: {}
+[18.844077] (-) TimerEvent: {}
+[18.944985] (-) TimerEvent: {}
+[19.045843] (-) TimerEvent: {}
+[19.146673] (-) TimerEvent: {}
+[19.247575] (-) TimerEvent: {}
+[19.348583] (-) TimerEvent: {}
+[19.449476] (-) TimerEvent: {}
+[19.550357] (-) TimerEvent: {}
+[19.651252] (-) TimerEvent: {}
+[19.752081] (-) TimerEvent: {}
+[19.852902] (-) TimerEvent: {}
+[19.953784] (-) TimerEvent: {}
+[20.054573] (-) TimerEvent: {}
+[20.155380] (-) TimerEvent: {}
+[20.256197] (-) TimerEvent: {}
+[20.356966] (-) TimerEvent: {}
+[20.457777] (-) TimerEvent: {}
+[20.558541] (-) TimerEvent: {}
+[20.659324] (-) TimerEvent: {}
+[20.760146] (-) TimerEvent: {}
+[20.860952] (-) TimerEvent: {}
+[20.961751] (-) TimerEvent: {}
+[21.062547] (-) TimerEvent: {}
+[21.163308] (-) TimerEvent: {}
+[21.264179] (-) TimerEvent: {}
+[21.365108] (-) TimerEvent: {}
+[21.466049] (-) TimerEvent: {}
+[21.566917] (-) TimerEvent: {}
+[21.667737] (-) TimerEvent: {}
+[21.768494] (-) TimerEvent: {}
+[21.869234] (-) TimerEvent: {}
+[21.969966] (-) TimerEvent: {}
+[22.070645] (-) TimerEvent: {}
+[22.171329] (-) TimerEvent: {}
+[22.272116] (-) TimerEvent: {}
+[22.372909] (-) TimerEvent: {}
+[22.473714] (-) TimerEvent: {}
+[22.574504] (-) TimerEvent: {}
+[22.675283] (-) TimerEvent: {}
+[22.776120] (-) TimerEvent: {}
+[22.876888] (-) TimerEvent: {}
+[22.977809] (-) TimerEvent: {}
+[23.079231] (-) TimerEvent: {}
+[23.180867] (-) TimerEvent: {}
+[23.281816] (-) TimerEvent: {}
+[23.382703] (-) TimerEvent: {}
+[23.483655] (-) TimerEvent: {}
+[23.584409] (-) TimerEvent: {}
+[23.685342] (-) TimerEvent: {}
+[23.786925] (-) TimerEvent: {}
+[23.887989] (-) TimerEvent: {}
+[23.989563] (-) TimerEvent: {}
+[24.090619] (-) TimerEvent: {}
+[24.191425] (-) TimerEvent: {}
+[24.292324] (-) TimerEvent: {}
+[24.393104] (-) TimerEvent: {}
+[24.493950] (-) TimerEvent: {}
+[24.594698] (-) TimerEvent: {}
+[24.695536] (-) TimerEvent: {}
+[24.796327] (-) TimerEvent: {}
+[24.897120] (-) TimerEvent: {}
+[24.998050] (-) TimerEvent: {}
+[25.099061] (-) TimerEvent: {}
+[25.200025] (-) TimerEvent: {}
+[25.300810] (-) TimerEvent: {}
+[25.401586] (-) TimerEvent: {}
+[25.502320] (-) TimerEvent: {}
+[25.603154] (-) TimerEvent: {}
+[25.703955] (-) TimerEvent: {}
+[25.804687] (-) TimerEvent: {}
+[25.905454] (-) TimerEvent: {}
+[26.006204] (-) TimerEvent: {}
+[26.106949] (-) TimerEvent: {}
+[26.207779] (-) TimerEvent: {}
+[26.308525] (-) TimerEvent: {}
+[26.409254] (-) TimerEvent: {}
+[26.509993] (-) TimerEvent: {}
+[26.610786] (-) TimerEvent: {}
+[26.711599] (-) TimerEvent: {}
+[26.812354] (-) TimerEvent: {}
+[26.913161] (-) TimerEvent: {}
+[27.014011] (-) TimerEvent: {}
+[27.114959] (-) TimerEvent: {}
+[27.215866] (-) TimerEvent: {}
+[27.316720] (-) TimerEvent: {}
+[27.417580] (-) TimerEvent: {}
+[27.518322] (-) TimerEvent: {}
+[27.619065] (-) TimerEvent: {}
+[27.719873] (-) TimerEvent: {}
+[27.820629] (-) TimerEvent: {}
+[27.921402] (-) TimerEvent: {}
+[28.022158] (-) TimerEvent: {}
+[28.122935] (-) TimerEvent: {}
+[28.223775] (-) TimerEvent: {}
+[28.324516] (-) TimerEvent: {}
+[28.425256] (-) TimerEvent: {}
+[28.526010] (-) TimerEvent: {}
+[28.626768] (-) TimerEvent: {}
+[28.727568] (-) TimerEvent: {}
+[28.828365] (-) TimerEvent: {}
+[28.929152] (-) TimerEvent: {}
+[29.029915] (-) TimerEvent: {}
+[29.130831] (-) TimerEvent: {}
+[29.231744] (-) TimerEvent: {}
+[29.332573] (-) TimerEvent: {}
+[29.433473] (-) TimerEvent: {}
+[29.534288] (-) TimerEvent: {}
+[29.635061] (-) TimerEvent: {}
+[29.735856] (-) TimerEvent: {}
+[29.836633] (-) TimerEvent: {}
+[29.937399] (-) TimerEvent: {}
+[30.038169] (-) TimerEvent: {}
+[30.138882] (-) TimerEvent: {}
+[30.239709] (-) TimerEvent: {}
+[30.340465] (-) TimerEvent: {}
+[30.441226] (-) TimerEvent: {}
+[30.542000] (-) TimerEvent: {}
+[30.642776] (-) TimerEvent: {}
+[30.743655] (-) TimerEvent: {}
+[30.844456] (-) TimerEvent: {}
+[30.945232] (-) TimerEvent: {}
+[31.046000] (-) TimerEvent: {}
+[31.146755] (-) TimerEvent: {}
+[31.247787] (-) TimerEvent: {}
+[31.348815] (-) TimerEvent: {}
+[31.449730] (-) TimerEvent: {}
+[31.550620] (-) TimerEvent: {}
+[31.651425] (-) TimerEvent: {}
+[31.752205] (-) TimerEvent: {}
+[31.852942] (-) TimerEvent: {}
+[31.953677] (-) TimerEvent: {}
+[32.054501] (-) TimerEvent: {}
+[32.155246] (-) TimerEvent: {}
+[32.256084] (-) TimerEvent: {}
+[32.356917] (-) TimerEvent: {}
+[32.457688] (-) TimerEvent: {}
+[32.558477] (-) TimerEvent: {}
+[32.659234] (-) TimerEvent: {}
+[32.760102] (-) TimerEvent: {}
+[32.860897] (-) TimerEvent: {}
+[32.961658] (-) TimerEvent: {}
+[33.062415] (-) TimerEvent: {}
+[33.163133] (-) TimerEvent: {}
+[33.264054] (-) TimerEvent: {}
+[33.365020] (-) TimerEvent: {}
+[33.465893] (-) TimerEvent: {}
+[33.566776] (-) TimerEvent: {}
+[33.667597] (-) TimerEvent: {}
+[33.768426] (-) TimerEvent: {}
+[33.869174] (-) TimerEvent: {}
+[33.969936] (-) TimerEvent: {}
+[34.070752] (-) TimerEvent: {}
+[34.171567] (-) TimerEvent: {}
+[34.272340] (-) TimerEvent: {}
+[34.373102] (-) TimerEvent: {}
+[34.473876] (-) TimerEvent: {}
+[34.574627] (-) TimerEvent: {}
+[34.675428] (-) TimerEvent: {}
+[34.776223] (-) TimerEvent: {}
+[34.877030] (-) TimerEvent: {}
+[34.977833] (-) TimerEvent: {}
+[35.078600] (-) TimerEvent: {}
+[35.179336] (-) TimerEvent: {}
+[35.280217] (-) TimerEvent: {}
+[35.381173] (-) TimerEvent: {}
+[35.482213] (-) TimerEvent: {}
+[35.583184] (-) TimerEvent: {}
+[35.684075] (-) TimerEvent: {}
+[35.784841] (-) TimerEvent: {}
+[35.885592] (-) TimerEvent: {}
+[35.986528] (-) TimerEvent: {}
+[36.087315] (-) TimerEvent: {}
+[36.188122] (-) TimerEvent: {}
+[36.288841] (-) TimerEvent: {}
+[36.389589] (-) TimerEvent: {}
+[36.490316] (-) TimerEvent: {}
+[36.591136] (-) TimerEvent: {}
+[36.691942] (-) TimerEvent: {}
+[36.792709] (-) TimerEvent: {}
+[36.893448] (-) TimerEvent: {}
+[36.994179] (-) TimerEvent: {}
+[37.094909] (-) TimerEvent: {}
+[37.195651] (-) TimerEvent: {}
+[37.296410] (-) TimerEvent: {}
+[37.397207] (-) TimerEvent: {}
+[37.498209] (-) TimerEvent: {}
+[37.599024] (-) TimerEvent: {}
+[37.700024] (-) TimerEvent: {}
+[37.801027] (-) TimerEvent: {}
+[37.902498] (-) TimerEvent: {}
+[38.003615] (-) TimerEvent: {}
+[38.104581] (-) TimerEvent: {}
+[38.205610] (-) TimerEvent: {}
+[38.307017] (-) TimerEvent: {}
+[38.408638] (-) TimerEvent: {}
+[38.509638] (-) TimerEvent: {}
+[38.573494] (nexus) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main_node\x1b[0m\n'}
+[38.609842] (-) TimerEvent: {}
+[38.710601] (-) TimerEvent: {}
+[38.811493] (-) TimerEvent: {}
+[38.912523] (-) TimerEvent: {}
+[39.013493] (-) TimerEvent: {}
+[39.114775] (-) TimerEvent: {}
+[39.216716] (-) TimerEvent: {}
+[39.318397] (-) TimerEvent: {}
+[39.420187] (-) TimerEvent: {}
+[39.521514] (-) TimerEvent: {}
+[39.622411] (-) TimerEvent: {}
+[39.723376] (-) TimerEvent: {}
+[39.824690] (-) TimerEvent: {}
+[39.925348] (-) TimerEvent: {}
+[40.026020] (-) TimerEvent: {}
+[40.126972] (-) TimerEvent: {}
+[40.228134] (-) TimerEvent: {}
+[40.329162] (-) TimerEvent: {}
+[40.430069] (-) TimerEvent: {}
+[40.530869] (-) TimerEvent: {}
+[40.605142] (nexus) StdoutLine: {'line': b'[100%] Built target main_node\n'}
+[40.631066] (-) TimerEvent: {}
+[40.644972] (nexus) CommandEnded: {'returncode': 0}
+[40.731406] (-) TimerEvent: {}
+[40.777033] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'install'}
+[40.812305] (nexus) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/divspanpi2/robo_ws/build/nexus'], 'cwd': '/home/divspanpi2/robo_ws/build/nexus', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.69.3 47006 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/1'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/1'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/nexus'), ('SSH_CONNECTION', '192.168.69.3 47006 192.168.69.5 22'), ('_P9K_TTY', '/dev/pts/1'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[40.831766] (-) TimerEvent: {}
+[40.847598] (nexus) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.849276] (nexus) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node\n'}
+[40.878453] (nexus) StdoutLine: {'line': b'-- Set runtime path of "/home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node" to ""\n'}
+[40.879079] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus\n'}
+[40.879575] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus\n'}
+[40.880080] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh\n'}
+[40.880594] (nexus) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv\n'}
+[40.881645] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh\n'}
+[40.882524] (nexus) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv\n'}
+[40.883637] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash\n'}
+[40.884580] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh\n'}
+[40.885102] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh\n'}
+[40.885411] (nexus) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv\n'}
+[40.885856] (nexus) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv\n'}
+[40.887067] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus\n'}
+[40.887624] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake\n'}
+[40.888371] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake\n'}
+[40.888798] (nexus) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml\n'}
+[40.893150] (nexus) CommandEnded: {'returncode': 0}
+[40.932005] (-) TimerEvent: {}
+[41.033517] (-) TimerEvent: {}
+[41.109757] (nexus) JobEnded: {'identifier': 'nexus', 'rc': 0}
+[41.112697] (-) EventReactorShutdown: {}

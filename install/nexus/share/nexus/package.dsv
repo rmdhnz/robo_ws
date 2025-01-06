@@ -1,0 +1,8 @@
+source;share/nexus/hook/cmake_prefix_path.ps1
+source;share/nexus/hook/cmake_prefix_path.dsv
+source;share/nexus/hook/cmake_prefix_path.sh
+source;share/nexus/local_setup.bash
+source;share/nexus/local_setup.dsv
+source;share/nexus/local_setup.ps1
+source;share/nexus/local_setup.sh
+source;share/nexus/local_setup.zsh

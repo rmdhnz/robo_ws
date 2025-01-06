@@ -1,0 +1,366 @@
+[0.451s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.452s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff882aceb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8845e440>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8845e440>>)
+[1.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.267s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/divspanpi2/robo_ws'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[1.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['ignore', 'ignore_ament_install']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ignore'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ignore_ament_install'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['colcon_pkg']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'colcon_pkg'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['colcon_meta']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'colcon_meta'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extensions ['ros']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy) by extension 'ros'
+[1.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy' with type 'ros.ament_cmake' and name 'joy'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extensions ['ignore', 'ignore_ament_install']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extension 'ignore'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extension 'ignore_ament_install'
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extensions ['colcon_pkg']
+[1.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extension 'colcon_pkg'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extensions ['colcon_meta']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extension 'colcon_meta'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extensions ['ros']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/nexus) by extension 'ros'
+[1.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nexus' with type 'ros.ament_cmake' and name 'nexus'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[1.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.485s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/divspanpi2/robo_ws/install
+[1.495s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 317 installed packages in /opt/ros/humble
+[1.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.687s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'joy' is in: /home/divspanpi2/robo_ws/install/joy, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.692s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/divspanpi2/robo_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/divspanpi2/robo_ws/install/bno055', 'merge_install': False, 'path': '/home/divspanpi2/robo_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.695s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/divspanpi2/robo_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/divspanpi2/robo_ws/install/joy', 'merge_install': False, 'path': '/home/divspanpi2/robo_ws/src/joy', 'symlink_install': False, 'test_result_base': None}
+[1.696s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'cmake_args' from command line to 'None'
+[1.696s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'cmake_target' from command line to 'None'
+[1.696s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.696s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'cmake_clean_cache' from command line to 'False'
+[1.696s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'cmake_clean_first' from command line to 'False'
+[1.697s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'cmake_force_configure' from command line to 'False'
+[1.697s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'ament_cmake_args' from command line to 'None'
+[1.697s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'catkin_cmake_args' from command line to 'None'
+[1.697s] Level 5:colcon.colcon_core.verb:set package 'nexus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.697s] DEBUG:colcon.colcon_core.verb:Building package 'nexus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/divspanpi2/robo_ws/build/nexus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/divspanpi2/robo_ws/install/nexus', 'merge_install': False, 'path': '/home/divspanpi2/robo_ws/src/nexus', 'symlink_install': False, 'test_result_base': None}
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.699s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/divspanpi2/robo_ws/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/divspanpi2/robo_ws/install/robot', 'merge_install': False, 'path': '/home/divspanpi2/robo_ws/src/robot', 'symlink_install': False, 'test_result_base': None}
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.702s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/divspanpi2/robo_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/divspanpi2/robo_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/divspanpi2/robo_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[1.702s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.707s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/divspanpi2/robo_ws/src/bno055' with build type 'ament_python'
+[1.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[1.717s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[1.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/divspanpi2/robo_ws/src/joy' with build type 'ament_cmake'
+[1.748s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/divspanpi2/robo_ws/src/joy'
+[1.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.750s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.771s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/divspanpi2/robo_ws/src/nexus' with build type 'ament_cmake'
+[1.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/divspanpi2/robo_ws/src/nexus'
+[1.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.795s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/divspanpi2/robo_ws/src/robot' with build type 'ament_python'
+[1.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/robot/share/robot/hook/ament_prefix_path.sh'
+[1.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.992s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/divspanpi2/robo_ws/src/bno055'
+[2.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/joy -- -j4 -l4
+[3.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[4.621s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/divspanpi2/robo_ws/src/robot'
+[4.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/joy -- -j4 -l4
+[5.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/joy
+[5.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[5.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/joy
+[5.637s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy' for CMake module files
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy' for CMake config files
+[5.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[5.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[5.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[5.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[5.682s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/lib'
+[5.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[5.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[5.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[5.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[5.706s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/bin'
+[5.707s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/lib/pkgconfig/joy.pc'
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/lib/python3.10/site-packages'
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/bin'
+[5.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.ps1'
+[5.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/joy/share/joy/package.dsv'
+[5.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.sh'
+[5.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.bash'
+[5.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.zsh'
+[5.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/joy/share/colcon-core/packages/joy)
+[6.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[6.298s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy' for CMake module files
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy' for CMake config files
+[6.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[6.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[6.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[6.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[6.336s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/lib'
+[6.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[6.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[6.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[6.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[6.363s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/bin'
+[6.364s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/lib/pkgconfig/joy.pc'
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/lib/python3.10/site-packages'
+[6.367s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/joy/bin'
+[6.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.ps1'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/joy/share/joy/package.dsv'
+[6.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.sh'
+[6.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.bash'
+[6.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/joy/share/joy/package.zsh'
+[6.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/joy/share/colcon-core/packages/joy)
+[6.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/divspanpi2/robo_ws/src/rplidar_ros' with build type 'ament_cmake'
+[6.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/divspanpi2/robo_ws/src/rplidar_ros'
+[6.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/rplidar_ros -- -j4 -l4
+[7.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/rplidar_ros -- -j4 -l4
+[7.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/src/bno055': PYTHONPATH=/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/divspanpi2/robo_ws/build/bno055/build install --record /home/divspanpi2/robo_ws/build/bno055/install.log --single-version-externally-managed install_data
+[7.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/src/robot': PYTHONPATH=/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/divspanpi2/robo_ws/build/robot/build install --record /home/divspanpi2/robo_ws/build/robot/install.log --single-version-externally-managed install_data
+[8.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/divspanpi2/robo_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/rplidar_ros
+[8.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[8.759s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros' for CMake module files
+[8.763s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros' for CMake config files
+[8.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/rplidar_ros
+[8.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[8.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[8.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[8.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[8.802s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/lib'
+[8.803s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/bin'
+[8.804s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[8.805s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[8.806s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/bin'
+[8.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[8.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[8.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[8.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[8.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[8.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[10.195s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055' for CMake module files
+[10.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/src/bno055' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/divspanpi2/robo_ws/build/bno055/build install --record /home/divspanpi2/robo_ws/build/bno055/install.log --single-version-externally-managed install_data
+[10.202s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055' for CMake config files
+[10.214s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055/lib'
+[10.215s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055/bin'
+[10.216s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[10.220s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages'
+[10.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath')
+[10.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/bno055/share/bno055/hook/pythonpath.ps1'
+[10.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/bno055/share/bno055/hook/pythonpath.dsv'
+[10.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/bno055/share/bno055/hook/pythonpath.sh'
+[10.249s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/bno055/bin'
+[10.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[10.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/bno055/share/bno055/package.ps1'
+[10.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/bno055/share/bno055/package.dsv'
+[10.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/bno055/share/bno055/package.sh'
+[10.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/bno055/share/bno055/package.bash'
+[10.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/bno055/share/bno055/package.zsh'
+[10.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/bno055/share/colcon-core/packages/bno055)
+[10.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros' for CMake module files
+[10.410s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros' for CMake config files
+[10.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[10.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[10.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[10.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[10.432s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/lib'
+[10.433s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/bin'
+[10.434s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[10.435s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[10.437s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/rplidar_ros/bin'
+[10.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[10.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[10.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[10.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[10.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[10.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[10.644s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot' for CMake module files
+[10.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/src/robot' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/divspanpi2/robo_ws/build/robot/build install --record /home/divspanpi2/robo_ws/build/robot/install.log --single-version-externally-managed install_data
+[10.652s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot' for CMake config files
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot/lib'
+[10.660s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot/bin'
+[10.661s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot/lib/pkgconfig/robot.pc'
+[10.663s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages'
+[10.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[10.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/robot/share/robot/hook/pythonpath.ps1'
+[10.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/robot/share/robot/hook/pythonpath.dsv'
+[10.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/robot/share/robot/hook/pythonpath.sh'
+[10.680s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/robot/bin'
+[10.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[10.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/robot/share/robot/package.ps1'
+[10.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/robot/share/robot/package.dsv'
+[10.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/robot/share/robot/package.sh'
+[10.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/robot/share/robot/package.bash'
+[10.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/robot/share/robot/package.zsh'
+[10.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/robot/share/colcon-core/packages/robot)
+[71.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[72.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nexus)
+[72.152s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus' for CMake module files
+[72.156s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus' for CMake config files
+[72.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('nexus', 'cmake_prefix_path')
+[72.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/nexus/share/nexus/hook/cmake_prefix_path.ps1'
+[72.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/divspanpi2/robo_ws/install/nexus/share/nexus/hook/cmake_prefix_path.dsv'
+[72.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/divspanpi2/robo_ws/install/nexus/share/nexus/hook/cmake_prefix_path.sh'
+[72.166s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus/lib'
+[72.167s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus/bin'
+[72.167s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus/lib/pkgconfig/nexus.pc'
+[72.168s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus/lib/python3.10/site-packages'
+[72.169s] Level 1:colcon.colcon_core.environment:checking '/home/divspanpi2/robo_ws/install/nexus/bin'
+[72.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.ps1'
+[72.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv'
+[72.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.sh'
+[72.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.bash'
+[72.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.zsh'
+[72.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/divspanpi2/robo_ws/install/nexus/share/colcon-core/packages/nexus)
+[72.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[72.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[72.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[72.194s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[72.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[72.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[72.220s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[72.258s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[72.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/divspanpi2/robo_ws/install/local_setup.ps1'
+[72.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/divspanpi2/robo_ws/install/_local_setup_util_ps1.py'
+[72.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/divspanpi2/robo_ws/install/setup.ps1'
+[72.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/divspanpi2/robo_ws/install/local_setup.sh'
+[72.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/divspanpi2/robo_ws/install/_local_setup_util_sh.py'
+[72.280s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/divspanpi2/robo_ws/install/setup.sh'
+[72.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/divspanpi2/robo_ws/install/local_setup.bash'
+[72.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/divspanpi2/robo_ws/install/setup.bash'
+[72.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/divspanpi2/robo_ws/install/local_setup.zsh'
+[72.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/divspanpi2/robo_ws/install/setup.zsh'

@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[ 75%] Built target icp_node
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:[m[K In constructor ‘[01m[KMainNode::MainNode()[m[K’:
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:21:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   21 |       [01;31m[K20ms[m[K, std::bind(&MainNode::timer_callback, this));
+      |       [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

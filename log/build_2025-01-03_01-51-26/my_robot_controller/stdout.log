@@ -1,0 +1,38 @@
+running egg_info
+writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_robot_controller/imu_raw_data.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+running install
+running install_lib
+copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_raw_data.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imu_raw_data.py to imu_raw_data.cpython-310.pyc
+byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/icp_algorithm.py to icp_algorithm.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ekf_fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing icp_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing imu_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing imu_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing imu_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing lidar_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing nav_test_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing obstacle_monitor script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing odom_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing odom_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing odom_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing path_listener script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing path_saver script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing tracking_object script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+Installing turtle_controller script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+writing list of installed files to '/home/divspanpi2/robo_ws/build/my_robot_controller/install.log'

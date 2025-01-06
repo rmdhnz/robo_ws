@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001528] (-) JobUnselected: {'identifier': 'bno055'}
+[0.002093] (-) JobUnselected: {'identifier': 'joy'}
+[0.002275] (-) JobUnselected: {'identifier': 'robot'}
+[0.002353] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002436] (nexus) JobQueued: {'identifier': 'nexus', 'dependencies': OrderedDict()}
+[0.002522] (nexus) JobStarted: {'identifier': 'nexus'}
+[0.041825] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'cmake'}
+[0.042782] (nexus) Command: {'cmd': ['/usr/bin/cmake', '/home/divspanpi2/robo_ws/src/nexus', '-DCMAKE_INSTALL_PREFIX=/home/divspanpi2/robo_ws/install/nexus'], 'cwd': '/home/divspanpi2/robo_ws/build/nexus', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.69.3 49482 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/0'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/bno055:/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/joy:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/nexus'), ('SSH_CONNECTION', '192.168.69.3 49482 192.168.69.5 22'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/joy')]), 'shell': False}
+[0.099035] (-) TimerEvent: {}
+[0.199907] (-) TimerEvent: {}
+[0.300893] (-) TimerEvent: {}
+[0.353767] (nexus) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401044] (-) TimerEvent: {}
+[0.501859] (-) TimerEvent: {}
+[0.602680] (-) TimerEvent: {}
+[0.628672] (nexus) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.673356] (nexus) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702852] (-) TimerEvent: {}
+[0.803737] (-) TimerEvent: {}
+[0.904731] (-) TimerEvent: {}
+[1.005539] (-) TimerEvent: {}
+[1.019392] (nexus) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.045901] (nexus) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.049498] (nexus) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.051894] (nexus) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.066679] (nexus) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.105755] (-) TimerEvent: {}
+[1.206618] (-) TimerEvent: {}
+[1.307464] (-) TimerEvent: {}
+[1.408391] (-) TimerEvent: {}
+[1.428685] (nexus) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.454237] (nexus) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.455275] (nexus) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.456847] (nexus) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.494028] (nexus) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.508538] (-) TimerEvent: {}
+[1.609201] (-) TimerEvent: {}
+[1.709814] (-) TimerEvent: {}
+[1.810611] (-) TimerEvent: {}
+[1.911838] (-) TimerEvent: {}
+[2.012492] (-) TimerEvent: {}
+[2.113346] (-) TimerEvent: {}
+[2.214130] (-) TimerEvent: {}
+[2.301675] (nexus) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.314339] (-) TimerEvent: {}
+[2.415140] (-) TimerEvent: {}
+[2.515783] (-) TimerEvent: {}
+[2.616459] (-) TimerEvent: {}
+[2.717154] (-) TimerEvent: {}
+[2.817941] (-) TimerEvent: {}
+[2.918620] (-) TimerEvent: {}
+[3.019272] (-) TimerEvent: {}
+[3.063831] (nexus) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.119615] (-) TimerEvent: {}
+[3.220414] (-) TimerEvent: {}
+[3.321120] (-) TimerEvent: {}
+[3.421837] (-) TimerEvent: {}
+[3.522547] (-) TimerEvent: {}
+[3.614001] (nexus) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.622708] (-) TimerEvent: {}
+[3.683510] (nexus) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.722884] (-) TimerEvent: {}
+[3.805836] (nexus) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.823125] (-) TimerEvent: {}
+[3.924046] (-) TimerEvent: {}
+[3.942180] (nexus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.024219] (-) TimerEvent: {}
+[4.098522] (nexus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.124528] (-) TimerEvent: {}
+[4.227522] (-) TimerEvent: {}
+[4.328234] (-) TimerEvent: {}
+[4.428951] (-) TimerEvent: {}
+[4.529647] (-) TimerEvent: {}
+[4.570185] (nexus) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.608987] (nexus) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.629857] (-) TimerEvent: {}
+[4.730734] (-) TimerEvent: {}
+[4.831592] (-) TimerEvent: {}
+[4.932375] (-) TimerEvent: {}
+[5.033073] (-) TimerEvent: {}
+[5.133801] (-) TimerEvent: {}
+[5.234628] (-) TimerEvent: {}
+[5.319854] (nexus) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.334824] (-) TimerEvent: {}
+[5.435717] (-) TimerEvent: {}
+[5.536438] (-) TimerEvent: {}
+[5.601687] (nexus) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.636606] (-) TimerEvent: {}
+[5.737312] (-) TimerEvent: {}
+[5.837974] (-) TimerEvent: {}
+[5.938659] (-) TimerEvent: {}
+[6.039372] (-) TimerEvent: {}
+[6.040057] (nexus) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.139544] (-) TimerEvent: {}
+[6.154715] (nexus) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.239746] (-) TimerEvent: {}
+[6.340479] (-) TimerEvent: {}
+[6.441328] (-) TimerEvent: {}
+[6.505270] (nexus) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.507601] (nexus) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.541541] (-) TimerEvent: {}
+[6.642276] (-) TimerEvent: {}
+[6.743186] (-) TimerEvent: {}
+[6.844063] (-) TimerEvent: {}
+[6.854117] (nexus) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.858476] (nexus) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.944246] (-) TimerEvent: {}
+[7.044937] (-) TimerEvent: {}
+[7.145597] (-) TimerEvent: {}
+[7.246367] (-) TimerEvent: {}
+[7.265828] (nexus) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.346830] (-) TimerEvent: {}
+[7.447750] (-) TimerEvent: {}
+[7.548586] (-) TimerEvent: {}
+[7.649235] (-) TimerEvent: {}
+[7.715869] (nexus) StderrLine: {'line': b"Error parsing '/home/divspanpi2/robo_ws/src/nexus/package.xml':\n"}
+[7.751307] (-) TimerEvent: {}
+[7.852495] (-) TimerEvent: {}
+[7.939883] (nexus) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[7.940754] (nexus) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[7.941105] (nexus) StderrLine: {'line': b'    main()\n'}
+[7.941364] (nexus) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[7.941618] (nexus) StderrLine: {'line': b'    raise e\n'}
+[7.941863] (nexus) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[7.942110] (nexus) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[7.942359] (nexus) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[7.945129] (nexus) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[7.946924] (nexus) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/divspanpi2/robo_ws/src/nexus/package.xml':\n"}
+[7.948796] (nexus) StderrLine: {'line': b'Error(s):\n'}
+[7.950158] (nexus) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: build_depend, exec_depend\n"}
+[7.951875] (nexus) StderrLine: {'line': b"- The generic dependency on 'sensor_msgs' is redundant with: build_depend, exec_depend\n"}
+[7.953202] (-) TimerEvent: {}
+[7.954642] (nexus) StderrLine: {'line': b"- The generic dependency on 'std_msgs' is redundant with: build_depend, exec_depend\n"}
+[8.035438] (nexus) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[8.036085] (nexus) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[8.036461] (nexus) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[8.037013] (nexus) StderrLine: {'line': b'  /home/divspanpi2/robo_ws/src/nexus/package.xml\n'}
+[8.037321] (nexus) StderrLine: {'line': b'  /home/divspanpi2/robo_ws/build/nexus/ament_cmake_core/package.cmake)\n'}
+[8.037654] (nexus) StderrLine: {'line': b'  returned error code 1\n'}
+[8.037956] (nexus) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.038245] (nexus) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[8.038527] (nexus) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[8.038889] (nexus) StderrLine: {'line': b'  CMakeLists.txt:25 (ament_package)\n'}
+[8.039275] (nexus) StderrLine: {'line': b'\n'}
+[8.039592] (nexus) StderrLine: {'line': b'\x1b[0m\n'}
+[8.039881] (nexus) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.040223] (nexus) StdoutLine: {'line': b'See also "/home/divspanpi2/robo_ws/build/nexus/CMakeFiles/CMakeOutput.log".\n'}
+[8.053486] (-) TimerEvent: {}
+[8.081023] (nexus) CommandEnded: {'returncode': 1}
+[8.083898] (nexus) JobEnded: {'identifier': 'nexus', 'rc': 1}
+[8.096012] (-) EventReactorShutdown: {}

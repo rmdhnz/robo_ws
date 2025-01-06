@@ -1,0 +1,28 @@
+[0.055s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[0.170s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.797s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.981s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.992s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.017s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.245s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.251s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.430s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.865s] -- Configuring done
+[2.922s] -- Generating done
+[2.931s] -- Build files have been written to: /home/divspanpi2/robo_ws/build/nexus
+[3.043s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[3.131s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[13.797s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:[m[K In member function ‘[01m[Kvoid MainNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[13.798s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:37:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto command_msg[m[K’
+[13.798s]    37 |     auto [01;31m[Kcommand_msg[m[K = std_msgs::msg::String();
+[13.799s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[13.800s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:18:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> > command_msg[m[K’
+[13.800s]    18 |     auto [01;36m[Kcommand_msg[m[K = std_msgs::msg::String();
+[13.800s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[23.446s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+[23.447s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+[23.448s] gmake: *** [Makefile:146: all] Error 2
+[23.455s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4

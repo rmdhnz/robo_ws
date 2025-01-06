@@ -1,0 +1,19 @@
+[1.280s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[1.528s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[1.585s] [35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[1.699s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[1.781s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o[0m
+[32.690s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:[m[K In member function ‘[01m[Kvoid ICPNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[32.691s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:30:14:[m[K [01;31m[Kerror: [m[K‘[01m[KremoveNaNFromPointCloud[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[32.692s]    30 |         pcl::[01;31m[KremoveNaNFromPointCloud[m[K(*cloud, *cloud, indices);
+[32.692s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.695s] [01m[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:31:14:[m[K [01;31m[Kerror: [m[K‘[01m[KremoveNaNFromPointCloud[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[32.696s]    31 |         pcl::[01;31m[KremoveNaNFromPointCloud[m[K(*cloud, *cloud, indices);
+[32.697s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[59.079s] gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o] Error 1
+[59.080s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/icp_node.dir/all] Error 2
+[59.080s] gmake[1]: *** Waiting for unfinished jobs....
+[67.046s] [ 75%] [32m[1mLinking CXX executable main_node[0m
+[70.212s] [ 75%] Built target main_node
+[70.216s] gmake: *** [Makefile:146: all] Error 2
+[70.223s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4

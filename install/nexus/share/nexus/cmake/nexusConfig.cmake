@@ -1,0 +1,1 @@
+/home/divspanpi2/robo_ws/build/nexus/ament_cmake_core/nexusConfig.cmake

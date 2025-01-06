@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[ 50%] Built target main_node
+[ 75%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable icp_node[0m
+[100%] Built target icp_node
+-- Install configuration: ""
+-- Installing: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node
+-- Set runtime path of "/home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node" to ""
+-- Installing: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node
+-- Set runtime path of "/home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node" to ""
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv
+-- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake
+-- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml

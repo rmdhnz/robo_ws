@@ -1,0 +1,26 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/divspanpi2/robo_ws/build/nexus
+[35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:[m[K In member function ‘[01m[Kvoid MainNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:37:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto command_msg[m[K’
+   37 |     auto [01;31m[Kcommand_msg[m[K = std_msgs::msg::String();
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:18:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> > command_msg[m[K’
+   18 |     auto [01;36m[Kcommand_msg[m[K = std_msgs::msg::String();
+      |          [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+[console_scripts]
+node_bno = robot.node_bno:main
+node_serial = robot.node_serial:main
+save_imu = robot.save_imu:main
+save_odom = robot.save_odom:main
+

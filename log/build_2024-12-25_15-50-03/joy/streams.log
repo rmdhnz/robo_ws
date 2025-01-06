@@ -1,0 +1,46 @@
+[1.303s] Invoking command in '/home/divspanpi2/robo_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/joy -- -j4 -l4
+[1.640s] [ 20%] Built target joy
+[1.673s] [ 40%] Built target game_controller
+[1.715s] [ 60%] Built target joy_node
+[1.725s] [ 80%] Built target game_controller_node
+[1.787s] [100%] Built target joy_enumerate_devices
+[2.802s] Invoked command in '/home/divspanpi2/robo_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/joy -- -j4 -l4
+[3.129s] Invoking command in '/home/divspanpi2/robo_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/joy
+[3.183s] -- Install configuration: ""
+[3.187s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/libjoy.so
+[3.193s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/joy/joy_node
+[3.200s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/libgame_controller.so
+[3.209s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/joy/game_controller_node
+[3.213s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/joy/joy_enumerate_devices
+[3.215s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy
+[3.217s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy/joy
+[3.219s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy/joy/game_controller.hpp
+[3.220s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy/joy/joy.hpp
+[3.222s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/config
+[3.224s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/config/joy-params.yaml
+[3.226s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/launch
+[3.228s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/launch/joy-composed-launch.py
+[3.230s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/launch/joy-launch.py
+[3.232s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+[3.234s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+[3.236s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+[3.238s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+[3.240s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/path.sh
+[3.242s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/path.dsv
+[3.244s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.bash
+[3.246s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.sh
+[3.248s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.zsh
+[3.250s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.dsv
+[3.252s] -- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/package.dsv
+[3.255s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/packages/joy
+[3.257s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+[3.260s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+[3.262s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+[3.264s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+[3.266s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake
+[3.268s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+[3.270s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.271s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/joyConfig.cmake
+[3.273s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+[3.274s] -- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/package.xml
+[3.291s] Invoked command in '/home/divspanpi2/robo_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/joy

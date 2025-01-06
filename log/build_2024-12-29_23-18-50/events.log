@@ -1,0 +1,889 @@
+[0.000000] (-) TimerEvent: {}
+[0.001783] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.002307] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.002487] (nexus) JobQueued: {'identifier': 'nexus', 'dependencies': OrderedDict()}
+[0.002753] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002908] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003003] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.041855] (joy) JobStarted: {'identifier': 'joy'}
+[0.065551] (nexus) JobStarted: {'identifier': 'nexus'}
+[0.089060] (robot) JobStarted: {'identifier': 'robot'}
+[0.099093] (-) TimerEvent: {}
+[0.200730] (-) TimerEvent: {}
+[0.301449] (-) TimerEvent: {}
+[0.402131] (-) TimerEvent: {}
+[0.502840] (-) TimerEvent: {}
+[0.603492] (-) TimerEvent: {}
+[0.704126] (-) TimerEvent: {}
+[0.804849] (-) TimerEvent: {}
+[0.905499] (-) TimerEvent: {}
+[1.006120] (-) TimerEvent: {}
+[1.106768] (-) TimerEvent: {}
+[1.207516] (-) TimerEvent: {}
+[1.308536] (-) TimerEvent: {}
+[1.309830] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[1.313354] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[1.316598] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspanpi2/robo_ws/build/joy', '--', '-j4', '-l4'], 'cwd': '/home/divspanpi2/robo_ws/build/joy', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.1.184 36870 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/0'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/joy'), ('SSH_CONNECTION', '192.168.1.184 36870 192.168.1.227 22'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[1.330624] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'cmake'}
+[1.335806] (nexus) JobProgress: {'identifier': 'nexus', 'progress': 'build'}
+[1.338047] (nexus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspanpi2/robo_ws/build/nexus', '--', '-j4', '-l4'], 'cwd': '/home/divspanpi2/robo_ws/build/nexus', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.1.184 36870 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/0'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/nexus'), ('SSH_CONNECTION', '192.168.1.184 36870 192.168.1.227 22'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[1.408756] (-) TimerEvent: {}
+[1.510227] (-) TimerEvent: {}
+[1.593153] (nexus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main_node\x1b[0m\n'}
+[1.610510] (-) TimerEvent: {}
+[1.650554] (nexus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target icp_node\x1b[0m\n'}
+[1.667671] (joy) StdoutLine: {'line': b'[ 20%] Built target joy\n'}
+[1.699699] (joy) StdoutLine: {'line': b'[ 40%] Built target game_controller\n'}
+[1.710700] (-) TimerEvent: {}
+[1.724867] (joy) StdoutLine: {'line': b'[ 60%] Built target joy_node\n'}
+[1.735334] (joy) StdoutLine: {'line': b'[ 80%] Built target game_controller_node\n'}
+[1.764373] (nexus) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o\x1b[0m\n'}
+[1.810906] (-) TimerEvent: {}
+[1.846446] (nexus) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o\x1b[0m\n'}
+[1.854067] (joy) StdoutLine: {'line': b'[100%] Built target joy_enumerate_devices\n'}
+[1.911056] (-) TimerEvent: {}
+[2.012348] (-) TimerEvent: {}
+[2.113377] (-) TimerEvent: {}
+[2.214168] (-) TimerEvent: {}
+[2.315058] (-) TimerEvent: {}
+[2.416252] (-) TimerEvent: {}
+[2.517276] (-) TimerEvent: {}
+[2.618318] (-) TimerEvent: {}
+[2.719202] (-) TimerEvent: {}
+[2.820043] (-) TimerEvent: {}
+[2.921133] (-) TimerEvent: {}
+[2.957289] (joy) CommandEnded: {'returncode': 0}
+[3.021335] (-) TimerEvent: {}
+[3.122717] (-) TimerEvent: {}
+[3.224004] (-) TimerEvent: {}
+[3.325767] (-) TimerEvent: {}
+[3.427151] (-) TimerEvent: {}
+[3.528737] (-) TimerEvent: {}
+[3.630106] (-) TimerEvent: {}
+[3.710778] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[3.730280] (-) TimerEvent: {}
+[3.754742] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/divspanpi2/robo_ws/build/joy'], 'cwd': '/home/divspanpi2/robo_ws/build/joy', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.1.184 36870 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/0'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/joy'), ('SSH_CONNECTION', '192.168.1.184 36870 192.168.1.227 22'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[3.801980] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.804640] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/libjoy.so\n'}
+[3.808229] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/joy/joy_node\n'}
+[3.811928] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/libgame_controller.so\n'}
+[3.816129] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/joy/game_controller_node\n'}
+[3.819898] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/lib/joy/joy_enumerate_devices\n'}
+[3.821669] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy\n'}
+[3.823526] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy/joy\n'}
+[3.825130] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy/joy/game_controller.hpp\n'}
+[3.826386] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/include/joy/joy/joy.hpp\n'}
+[3.827653] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/config\n'}
+[3.828996] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/config/joy-params.yaml\n'}
+[3.830038] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/launch\n'}
+[3.830526] (-) TimerEvent: {}
+[3.832719] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/launch/joy-composed-launch.py\n'}
+[3.833905] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/launch/joy-launch.py\n'}
+[3.835322] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[3.836872] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[3.839112] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[3.840775] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[3.842464] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/path.sh\n'}
+[3.844513] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/path.dsv\n'}
+[3.846299] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.bash\n'}
+[3.847799] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.sh\n'}
+[3.853175] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.zsh\n'}
+[3.854946] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.dsv\n'}
+[3.856604] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/package.dsv\n'}
+[3.859470] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[3.872995] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy\n'}
+[3.875159] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_joyExport.cmake\n'}
+[3.876778] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake\n'}
+[3.878950] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake\n'}
+[3.880794] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake\n'}
+[3.882681] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.884585] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.886332] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[3.887924] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[3.889836] (joy) StdoutLine: {'line': b'-- Up-to-date: /home/divspanpi2/robo_ws/install/joy/share/joy/package.xml\n'}
+[3.904746] (joy) CommandEnded: {'returncode': 0}
+[3.940415] (-) TimerEvent: {}
+[4.042495] (-) TimerEvent: {}
+[4.143372] (-) TimerEvent: {}
+[4.244775] (-) TimerEvent: {}
+[4.346130] (-) TimerEvent: {}
+[4.446969] (-) TimerEvent: {}
+[4.548447] (-) TimerEvent: {}
+[4.649962] (-) TimerEvent: {}
+[4.708693] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[4.712317] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[4.750612] (-) TimerEvent: {}
+[4.759983] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[4.766082] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[4.768660] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspanpi2/robo_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/divspanpi2/robo_ws/build/rplidar_ros', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.1.184 36870 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/0'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/rplidar_ros'), ('SSH_CONNECTION', '192.168.1.184 36870 192.168.1.227 22'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[4.850852] (-) TimerEvent: {}
+[4.951933] (-) TimerEvent: {}
+[5.052904] (-) TimerEvent: {}
+[5.153831] (-) TimerEvent: {}
+[5.177718] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_node\n'}
+[5.206039] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_client\n'}
+[5.211636] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[5.254281] (-) TimerEvent: {}
+[5.341171] (rplidar_ros) CommandEnded: {'returncode': 0}
+[5.355052] (-) TimerEvent: {}
+[5.456697] (-) TimerEvent: {}
+[5.558004] (-) TimerEvent: {}
+[5.569524] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/divspanpi2/robo_ws/build/bno055/build', 'install', '--record', '/home/divspanpi2/robo_ws/build/bno055/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/divspanpi2/robo_ws/src/bno055', 'env': {'LC_TIME': 'id_ID.UTF-8', 'USER': 'divspanpi2', 'SSH_CLIENT': '192.168.1.184 36870 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/divspanpi2', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/divspanpi2/robo_ws/src', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/divspanpi2/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/divspanpi2/robo_ws/install', 'LOGNAME': 'divspanpi2', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '11', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble', 'LC_NAME': 'id_ID.UTF-8', 'SHELL': '/usr/bin/zsh', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'P9K_SSH': '1', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/divspanpi2/robo_ws/build/bno055', 'SSH_CONNECTION': '192.168.1.184 36870 192.168.1.227 22', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'id_ID.UTF-8', 'PYTHONPATH': '/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy'}, 'shell': False}
+[5.658257] (-) TimerEvent: {}
+[5.759504] (-) TimerEvent: {}
+[5.860467] (-) TimerEvent: {}
+[5.961565] (-) TimerEvent: {}
+[6.063223] (-) TimerEvent: {}
+[6.102059] (robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/divspanpi2/robo_ws/build/robot/build', 'install', '--record', '/home/divspanpi2/robo_ws/build/robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/divspanpi2/robo_ws/src/robot', 'env': {'LC_TIME': 'id_ID.UTF-8', 'USER': 'divspanpi2', 'SSH_CLIENT': '192.168.1.184 36870 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/divspanpi2', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/divspanpi2/robo_ws/src', 'LESS': '-R', 'SSH_TTY': '/dev/pts/0', 'ZSH': '/home/divspanpi2/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/divspanpi2/robo_ws/install', 'LOGNAME': 'divspanpi2', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '11', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble', 'LC_NAME': 'id_ID.UTF-8', 'SHELL': '/usr/bin/zsh', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'P9K_SSH': '1', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/divspanpi2/robo_ws/build/robot', 'SSH_CONNECTION': '192.168.1.184 36870 192.168.1.227 22', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'id_ID.UTF-8', 'PYTHONPATH': '/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy'}, 'shell': False}
+[6.163462] (-) TimerEvent: {}
+[6.264464] (-) TimerEvent: {}
+[6.365445] (-) TimerEvent: {}
+[6.466365] (-) TimerEvent: {}
+[6.567405] (-) TimerEvent: {}
+[6.668439] (-) TimerEvent: {}
+[6.783315] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[6.783577] (-) TimerEvent: {}
+[6.785847] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/divspanpi2/robo_ws/build/rplidar_ros'], 'cwd': '/home/divspanpi2/robo_ws/build/rplidar_ros', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.1.184 36870 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/0'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/rplidar_ros'), ('SSH_CONNECTION', '192.168.1.184 36870 192.168.1.227 22'), ('_P9K_TTY', '/dev/pts/0'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble')]), 'shell': False}
+[6.859797] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.861907] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.871626] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[6.872581] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[6.876733] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[6.877685] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[6.878950] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[6.879875] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[6.883901] (-) TimerEvent: {}
+[6.885885] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[6.886928] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[6.887951] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[6.897252] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[6.898409] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[6.899479] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[6.900879] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[6.901906] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[6.902846] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[6.903838] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[6.905176] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[6.906274] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[6.909879] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[6.912567] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[6.913501] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[6.914710] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[6.915695] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[6.923978] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[6.926237] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[6.928261] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[6.933776] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[6.934905] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[6.940624] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[6.942573] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[6.944002] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[6.956729] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[6.959420] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[6.962082] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[6.963292] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[6.964577] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[6.965640] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[6.966764] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[6.967569] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[6.984120] (-) TimerEvent: {}
+[7.030856] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[7.033359] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.035805] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.038366] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[7.040670] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[7.043238] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[7.051641] (rplidar_ros) CommandEnded: {'returncode': 0}
+[7.084353] (-) TimerEvent: {}
+[7.185981] (-) TimerEvent: {}
+[7.287809] (-) TimerEvent: {}
+[7.390176] (-) TimerEvent: {}
+[7.491785] (-) TimerEvent: {}
+[7.593505] (-) TimerEvent: {}
+[7.695034] (-) TimerEvent: {}
+[7.796559] (-) TimerEvent: {}
+[7.898660] (-) TimerEvent: {}
+[7.955841] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[7.963487] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[7.968172] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[7.971431] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[7.974686] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[7.977697] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[7.998368] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[7.999315] (-) TimerEvent: {}
+[8.004493] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.006073] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[8.013054] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[8.015343] (bno055) StdoutLine: {'line': b'running build\n'}
+[8.016386] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[8.034747] (bno055) StdoutLine: {'line': b'running install\n'}
+[8.038486] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[8.056798] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[8.060810] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.078592] (bno055) StdoutLine: {'line': b"removing '/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info' (and everything under it)\n"}
+[8.082616] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info\n'}
+[8.095161] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[8.099503] (-) TimerEvent: {}
+[8.201279] (-) TimerEvent: {}
+[8.252736] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/divspanpi2/robo_ws/install/bno055/lib/bno055\n'}
+[8.261875] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/divspanpi2/robo_ws/build/bno055/install.log'\n"}
+[8.301598] (-) TimerEvent: {}
+[8.403051] (-) TimerEvent: {}
+[8.489820] (bno055) CommandEnded: {'returncode': 0}
+[8.503289] (-) TimerEvent: {}
+[8.563045] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[8.567785] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[8.569038] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[8.571171] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[8.572913] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[8.573975] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[8.586055] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[8.588949] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.592675] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[8.594150] (robot) StdoutLine: {'line': b'running build\n'}
+[8.595044] (robot) StdoutLine: {'line': b'running build_py\n'}
+[8.597147] (robot) StdoutLine: {'line': b'running install\n'}
+[8.598511] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[8.601687] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[8.605122] (-) TimerEvent: {}
+[8.606929] (robot) StdoutLine: {'line': b'byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/node_serial.py to node_serial.cpython-310.pyc\n'}
+[8.611256] (robot) StdoutLine: {'line': b'running install_data\n'}
+[8.612556] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.622827] (robot) StdoutLine: {'line': b"removing '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.625280] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[8.634272] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[8.705453] (-) TimerEvent: {}
+[8.758638] (robot) StdoutLine: {'line': b'Installing node_bno script to /home/divspanpi2/robo_ws/install/robot/lib/robot\n'}
+[8.763378] (robot) StdoutLine: {'line': b'Installing node_serial script to /home/divspanpi2/robo_ws/install/robot/lib/robot\n'}
+[8.766542] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[8.769249] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/divspanpi2/robo_ws/build/robot/install.log'\n"}
+[8.805808] (-) TimerEvent: {}
+[8.908006] (-) TimerEvent: {}
+[8.939121] (robot) CommandEnded: {'returncode': 0}
+[9.006619] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[9.010290] (-) TimerEvent: {}
+[9.111298] (-) TimerEvent: {}
+[9.212360] (-) TimerEvent: {}
+[9.313380] (-) TimerEvent: {}
+[9.414889] (-) TimerEvent: {}
+[9.515711] (-) TimerEvent: {}
+[9.616613] (-) TimerEvent: {}
+[9.717336] (-) TimerEvent: {}
+[9.818235] (-) TimerEvent: {}
+[9.919123] (-) TimerEvent: {}
+[10.019936] (-) TimerEvent: {}
+[10.120788] (-) TimerEvent: {}
+[10.221574] (-) TimerEvent: {}
+[10.322474] (-) TimerEvent: {}
+[10.423456] (-) TimerEvent: {}
+[10.524324] (-) TimerEvent: {}
+[10.625148] (-) TimerEvent: {}
+[10.726101] (-) TimerEvent: {}
+[10.826951] (-) TimerEvent: {}
+[10.927792] (-) TimerEvent: {}
+[11.028629] (-) TimerEvent: {}
+[11.129509] (-) TimerEvent: {}
+[11.230388] (-) TimerEvent: {}
+[11.331194] (-) TimerEvent: {}
+[11.431971] (-) TimerEvent: {}
+[11.532864] (-) TimerEvent: {}
+[11.633736] (-) TimerEvent: {}
+[11.734663] (-) TimerEvent: {}
+[11.835493] (-) TimerEvent: {}
+[11.936357] (-) TimerEvent: {}
+[12.037168] (-) TimerEvent: {}
+[12.137921] (-) TimerEvent: {}
+[12.238656] (-) TimerEvent: {}
+[12.339400] (-) TimerEvent: {}
+[12.440349] (-) TimerEvent: {}
+[12.541505] (-) TimerEvent: {}
+[12.642385] (-) TimerEvent: {}
+[12.743087] (-) TimerEvent: {}
+[12.843943] (-) TimerEvent: {}
+[12.944713] (-) TimerEvent: {}
+[13.045496] (-) TimerEvent: {}
+[13.146276] (-) TimerEvent: {}
+[13.247334] (-) TimerEvent: {}
+[13.348364] (-) TimerEvent: {}
+[13.449109] (-) TimerEvent: {}
+[13.550096] (-) TimerEvent: {}
+[13.650919] (-) TimerEvent: {}
+[13.751790] (-) TimerEvent: {}
+[13.852744] (-) TimerEvent: {}
+[13.953889] (-) TimerEvent: {}
+[14.054843] (-) TimerEvent: {}
+[14.155703] (-) TimerEvent: {}
+[14.256720] (-) TimerEvent: {}
+[14.357704] (-) TimerEvent: {}
+[14.458542] (-) TimerEvent: {}
+[14.559421] (-) TimerEvent: {}
+[14.660288] (-) TimerEvent: {}
+[14.761119] (-) TimerEvent: {}
+[14.861940] (-) TimerEvent: {}
+[14.962821] (-) TimerEvent: {}
+[15.063715] (-) TimerEvent: {}
+[15.164632] (-) TimerEvent: {}
+[15.265528] (-) TimerEvent: {}
+[15.366518] (-) TimerEvent: {}
+[15.467320] (-) TimerEvent: {}
+[15.568233] (-) TimerEvent: {}
+[15.669025] (-) TimerEvent: {}
+[15.769811] (-) TimerEvent: {}
+[15.870755] (-) TimerEvent: {}
+[15.971779] (-) TimerEvent: {}
+[16.072635] (-) TimerEvent: {}
+[16.173467] (-) TimerEvent: {}
+[16.274294] (-) TimerEvent: {}
+[16.375227] (-) TimerEvent: {}
+[16.476271] (-) TimerEvent: {}
+[16.577420] (-) TimerEvent: {}
+[16.678320] (-) TimerEvent: {}
+[16.779306] (-) TimerEvent: {}
+[16.880151] (-) TimerEvent: {}
+[16.981187] (-) TimerEvent: {}
+[17.082079] (-) TimerEvent: {}
+[17.182931] (-) TimerEvent: {}
+[17.283758] (-) TimerEvent: {}
+[17.384616] (-) TimerEvent: {}
+[17.485421] (-) TimerEvent: {}
+[17.586221] (-) TimerEvent: {}
+[17.687064] (-) TimerEvent: {}
+[17.787925] (-) TimerEvent: {}
+[17.888766] (-) TimerEvent: {}
+[17.989605] (-) TimerEvent: {}
+[18.090413] (-) TimerEvent: {}
+[18.191305] (-) TimerEvent: {}
+[18.292337] (-) TimerEvent: {}
+[18.393194] (-) TimerEvent: {}
+[18.494074] (-) TimerEvent: {}
+[18.595078] (-) TimerEvent: {}
+[18.695934] (-) TimerEvent: {}
+[18.796856] (-) TimerEvent: {}
+[18.897679] (-) TimerEvent: {}
+[18.998497] (-) TimerEvent: {}
+[19.099613] (-) TimerEvent: {}
+[19.200470] (-) TimerEvent: {}
+[19.301233] (-) TimerEvent: {}
+[19.402176] (-) TimerEvent: {}
+[19.502994] (-) TimerEvent: {}
+[19.603877] (-) TimerEvent: {}
+[19.704738] (-) TimerEvent: {}
+[19.805617] (-) TimerEvent: {}
+[19.906623] (-) TimerEvent: {}
+[20.007483] (-) TimerEvent: {}
+[20.108372] (-) TimerEvent: {}
+[20.209253] (-) TimerEvent: {}
+[20.310068] (-) TimerEvent: {}
+[20.410889] (-) TimerEvent: {}
+[20.511713] (-) TimerEvent: {}
+[20.612570] (-) TimerEvent: {}
+[20.713461] (-) TimerEvent: {}
+[20.814323] (-) TimerEvent: {}
+[20.915151] (-) TimerEvent: {}
+[21.016021] (-) TimerEvent: {}
+[21.116959] (-) TimerEvent: {}
+[21.217890] (-) TimerEvent: {}
+[21.318770] (-) TimerEvent: {}
+[21.419641] (-) TimerEvent: {}
+[21.520542] (-) TimerEvent: {}
+[21.621413] (-) TimerEvent: {}
+[21.722274] (-) TimerEvent: {}
+[21.823171] (-) TimerEvent: {}
+[21.924096] (-) TimerEvent: {}
+[22.025186] (-) TimerEvent: {}
+[22.126239] (-) TimerEvent: {}
+[22.227268] (-) TimerEvent: {}
+[22.328434] (-) TimerEvent: {}
+[22.429390] (-) TimerEvent: {}
+[22.530469] (-) TimerEvent: {}
+[22.631355] (-) TimerEvent: {}
+[22.732264] (-) TimerEvent: {}
+[22.833406] (-) TimerEvent: {}
+[22.934252] (-) TimerEvent: {}
+[23.035130] (-) TimerEvent: {}
+[23.136073] (-) TimerEvent: {}
+[23.236988] (-) TimerEvent: {}
+[23.337865] (-) TimerEvent: {}
+[23.438718] (-) TimerEvent: {}
+[23.539581] (-) TimerEvent: {}
+[23.640461] (-) TimerEvent: {}
+[23.741353] (-) TimerEvent: {}
+[23.842232] (-) TimerEvent: {}
+[23.943431] (-) TimerEvent: {}
+[24.044261] (-) TimerEvent: {}
+[24.145277] (-) TimerEvent: {}
+[24.246210] (-) TimerEvent: {}
+[24.347110] (-) TimerEvent: {}
+[24.447962] (-) TimerEvent: {}
+[24.548892] (-) TimerEvent: {}
+[24.649717] (-) TimerEvent: {}
+[24.750663] (-) TimerEvent: {}
+[24.851565] (-) TimerEvent: {}
+[24.952569] (-) TimerEvent: {}
+[25.053468] (-) TimerEvent: {}
+[25.154310] (-) TimerEvent: {}
+[25.255280] (-) TimerEvent: {}
+[25.356144] (-) TimerEvent: {}
+[25.457039] (-) TimerEvent: {}
+[25.557956] (-) TimerEvent: {}
+[25.658776] (-) TimerEvent: {}
+[25.759611] (-) TimerEvent: {}
+[25.860466] (-) TimerEvent: {}
+[25.961278] (-) TimerEvent: {}
+[26.062141] (-) TimerEvent: {}
+[26.162968] (-) TimerEvent: {}
+[26.263799] (-) TimerEvent: {}
+[26.364690] (-) TimerEvent: {}
+[26.465664] (-) TimerEvent: {}
+[26.566551] (-) TimerEvent: {}
+[26.667415] (-) TimerEvent: {}
+[26.768324] (-) TimerEvent: {}
+[26.869196] (-) TimerEvent: {}
+[26.970115] (-) TimerEvent: {}
+[27.070970] (-) TimerEvent: {}
+[27.171749] (-) TimerEvent: {}
+[27.272583] (-) TimerEvent: {}
+[27.373429] (-) TimerEvent: {}
+[27.474259] (-) TimerEvent: {}
+[27.575103] (-) TimerEvent: {}
+[27.675924] (-) TimerEvent: {}
+[27.776820] (-) TimerEvent: {}
+[27.877707] (-) TimerEvent: {}
+[27.978732] (-) TimerEvent: {}
+[28.079539] (-) TimerEvent: {}
+[28.180369] (-) TimerEvent: {}
+[28.281265] (-) TimerEvent: {}
+[28.382351] (-) TimerEvent: {}
+[28.483168] (-) TimerEvent: {}
+[28.584036] (-) TimerEvent: {}
+[28.685021] (-) TimerEvent: {}
+[28.786059] (-) TimerEvent: {}
+[28.886989] (-) TimerEvent: {}
+[28.987838] (-) TimerEvent: {}
+[29.088776] (-) TimerEvent: {}
+[29.189700] (-) TimerEvent: {}
+[29.290637] (-) TimerEvent: {}
+[29.391492] (-) TimerEvent: {}
+[29.492409] (-) TimerEvent: {}
+[29.593233] (-) TimerEvent: {}
+[29.694088] (-) TimerEvent: {}
+[29.794977] (-) TimerEvent: {}
+[29.895860] (-) TimerEvent: {}
+[29.996747] (-) TimerEvent: {}
+[30.097622] (-) TimerEvent: {}
+[30.198517] (-) TimerEvent: {}
+[30.299448] (-) TimerEvent: {}
+[30.400529] (-) TimerEvent: {}
+[30.501350] (-) TimerEvent: {}
+[30.602224] (-) TimerEvent: {}
+[30.703081] (-) TimerEvent: {}
+[30.803997] (-) TimerEvent: {}
+[30.905020] (-) TimerEvent: {}
+[31.006119] (-) TimerEvent: {}
+[31.106915] (-) TimerEvent: {}
+[31.207744] (-) TimerEvent: {}
+[31.308539] (-) TimerEvent: {}
+[31.409315] (-) TimerEvent: {}
+[31.510098] (-) TimerEvent: {}
+[31.610928] (-) TimerEvent: {}
+[31.711708] (-) TimerEvent: {}
+[31.812497] (-) TimerEvent: {}
+[31.913285] (-) TimerEvent: {}
+[32.014158] (-) TimerEvent: {}
+[32.115059] (-) TimerEvent: {}
+[32.215934] (-) TimerEvent: {}
+[32.316850] (-) TimerEvent: {}
+[32.417667] (-) TimerEvent: {}
+[32.518475] (-) TimerEvent: {}
+[32.619421] (-) TimerEvent: {}
+[32.720392] (-) TimerEvent: {}
+[32.755894] (nexus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ICPNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.756649] (nexus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:30:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KremoveNaNFromPointCloud\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.757225] (nexus) StderrLine: {'line': b'   30 |         pcl::\x1b[01;31m\x1b[KremoveNaNFromPointCloud\x1b[m\x1b[K(*cloud, *cloud, indices);\n'}
+[32.758003] (nexus) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.760540] (nexus) StderrLine: {'line': b'\x1b[01m\x1b[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:31:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KremoveNaNFromPointCloud\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.761571] (nexus) StderrLine: {'line': b'   31 |         pcl::\x1b[01;31m\x1b[KremoveNaNFromPointCloud\x1b[m\x1b[K(*cloud, *cloud, indices);\n'}
+[32.762152] (nexus) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.820725] (-) TimerEvent: {}
+[32.921573] (-) TimerEvent: {}
+[33.022388] (-) TimerEvent: {}
+[33.123318] (-) TimerEvent: {}
+[33.224134] (-) TimerEvent: {}
+[33.324970] (-) TimerEvent: {}
+[33.426038] (-) TimerEvent: {}
+[33.526903] (-) TimerEvent: {}
+[33.627801] (-) TimerEvent: {}
+[33.728961] (-) TimerEvent: {}
+[33.829962] (-) TimerEvent: {}
+[33.930850] (-) TimerEvent: {}
+[34.031712] (-) TimerEvent: {}
+[34.132651] (-) TimerEvent: {}
+[34.233529] (-) TimerEvent: {}
+[34.334510] (-) TimerEvent: {}
+[34.435358] (-) TimerEvent: {}
+[34.536249] (-) TimerEvent: {}
+[34.637074] (-) TimerEvent: {}
+[34.737940] (-) TimerEvent: {}
+[34.838797] (-) TimerEvent: {}
+[34.939645] (-) TimerEvent: {}
+[35.040672] (-) TimerEvent: {}
+[35.141597] (-) TimerEvent: {}
+[35.242495] (-) TimerEvent: {}
+[35.343331] (-) TimerEvent: {}
+[35.444272] (-) TimerEvent: {}
+[35.545289] (-) TimerEvent: {}
+[35.646253] (-) TimerEvent: {}
+[35.747154] (-) TimerEvent: {}
+[35.848047] (-) TimerEvent: {}
+[35.948946] (-) TimerEvent: {}
+[36.049797] (-) TimerEvent: {}
+[36.150610] (-) TimerEvent: {}
+[36.251450] (-) TimerEvent: {}
+[36.352335] (-) TimerEvent: {}
+[36.453126] (-) TimerEvent: {}
+[36.554004] (-) TimerEvent: {}
+[36.655288] (-) TimerEvent: {}
+[36.756899] (-) TimerEvent: {}
+[36.857887] (-) TimerEvent: {}
+[36.959006] (-) TimerEvent: {}
+[37.061584] (-) TimerEvent: {}
+[37.163343] (-) TimerEvent: {}
+[37.264359] (-) TimerEvent: {}
+[37.365165] (-) TimerEvent: {}
+[37.466084] (-) TimerEvent: {}
+[37.566939] (-) TimerEvent: {}
+[37.667756] (-) TimerEvent: {}
+[37.768632] (-) TimerEvent: {}
+[37.869533] (-) TimerEvent: {}
+[37.970409] (-) TimerEvent: {}
+[38.071224] (-) TimerEvent: {}
+[38.172036] (-) TimerEvent: {}
+[38.272882] (-) TimerEvent: {}
+[38.373776] (-) TimerEvent: {}
+[38.474639] (-) TimerEvent: {}
+[38.575478] (-) TimerEvent: {}
+[38.676330] (-) TimerEvent: {}
+[38.777182] (-) TimerEvent: {}
+[38.878122] (-) TimerEvent: {}
+[38.978957] (-) TimerEvent: {}
+[39.079881] (-) TimerEvent: {}
+[39.181078] (-) TimerEvent: {}
+[39.281918] (-) TimerEvent: {}
+[39.382826] (-) TimerEvent: {}
+[39.483759] (-) TimerEvent: {}
+[39.584698] (-) TimerEvent: {}
+[39.685621] (-) TimerEvent: {}
+[39.786483] (-) TimerEvent: {}
+[39.887407] (-) TimerEvent: {}
+[39.988388] (-) TimerEvent: {}
+[40.089266] (-) TimerEvent: {}
+[40.190125] (-) TimerEvent: {}
+[40.291124] (-) TimerEvent: {}
+[40.392060] (-) TimerEvent: {}
+[40.493044] (-) TimerEvent: {}
+[40.594029] (-) TimerEvent: {}
+[40.695011] (-) TimerEvent: {}
+[40.795888] (-) TimerEvent: {}
+[40.896881] (-) TimerEvent: {}
+[40.997704] (-) TimerEvent: {}
+[41.098527] (-) TimerEvent: {}
+[41.199351] (-) TimerEvent: {}
+[41.300274] (-) TimerEvent: {}
+[41.401048] (-) TimerEvent: {}
+[41.501920] (-) TimerEvent: {}
+[41.602800] (-) TimerEvent: {}
+[41.703633] (-) TimerEvent: {}
+[41.804447] (-) TimerEvent: {}
+[41.905295] (-) TimerEvent: {}
+[42.006158] (-) TimerEvent: {}
+[42.107007] (-) TimerEvent: {}
+[42.207809] (-) TimerEvent: {}
+[42.308638] (-) TimerEvent: {}
+[42.409458] (-) TimerEvent: {}
+[42.510227] (-) TimerEvent: {}
+[42.611158] (-) TimerEvent: {}
+[42.711926] (-) TimerEvent: {}
+[42.812796] (-) TimerEvent: {}
+[42.913640] (-) TimerEvent: {}
+[43.014458] (-) TimerEvent: {}
+[43.115302] (-) TimerEvent: {}
+[43.216125] (-) TimerEvent: {}
+[43.317034] (-) TimerEvent: {}
+[43.417885] (-) TimerEvent: {}
+[43.518756] (-) TimerEvent: {}
+[43.619630] (-) TimerEvent: {}
+[43.720514] (-) TimerEvent: {}
+[43.821326] (-) TimerEvent: {}
+[43.922140] (-) TimerEvent: {}
+[44.023085] (-) TimerEvent: {}
+[44.123954] (-) TimerEvent: {}
+[44.224842] (-) TimerEvent: {}
+[44.325639] (-) TimerEvent: {}
+[44.426597] (-) TimerEvent: {}
+[44.528779] (-) TimerEvent: {}
+[44.629576] (-) TimerEvent: {}
+[44.730430] (-) TimerEvent: {}
+[44.831256] (-) TimerEvent: {}
+[44.932106] (-) TimerEvent: {}
+[45.032965] (-) TimerEvent: {}
+[45.133858] (-) TimerEvent: {}
+[45.234721] (-) TimerEvent: {}
+[45.335609] (-) TimerEvent: {}
+[45.436586] (-) TimerEvent: {}
+[45.537423] (-) TimerEvent: {}
+[45.638301] (-) TimerEvent: {}
+[45.739271] (-) TimerEvent: {}
+[45.840121] (-) TimerEvent: {}
+[45.940998] (-) TimerEvent: {}
+[46.041897] (-) TimerEvent: {}
+[46.142788] (-) TimerEvent: {}
+[46.243578] (-) TimerEvent: {}
+[46.344459] (-) TimerEvent: {}
+[46.445361] (-) TimerEvent: {}
+[46.546200] (-) TimerEvent: {}
+[46.647069] (-) TimerEvent: {}
+[46.747967] (-) TimerEvent: {}
+[46.848899] (-) TimerEvent: {}
+[46.949739] (-) TimerEvent: {}
+[47.050599] (-) TimerEvent: {}
+[47.151523] (-) TimerEvent: {}
+[47.252353] (-) TimerEvent: {}
+[47.353202] (-) TimerEvent: {}
+[47.454043] (-) TimerEvent: {}
+[47.554883] (-) TimerEvent: {}
+[47.655812] (-) TimerEvent: {}
+[47.756626] (-) TimerEvent: {}
+[47.857460] (-) TimerEvent: {}
+[47.958383] (-) TimerEvent: {}
+[48.059211] (-) TimerEvent: {}
+[48.160011] (-) TimerEvent: {}
+[48.260817] (-) TimerEvent: {}
+[48.361695] (-) TimerEvent: {}
+[48.462525] (-) TimerEvent: {}
+[48.563340] (-) TimerEvent: {}
+[48.664257] (-) TimerEvent: {}
+[48.765088] (-) TimerEvent: {}
+[48.865944] (-) TimerEvent: {}
+[48.966731] (-) TimerEvent: {}
+[49.067579] (-) TimerEvent: {}
+[49.168481] (-) TimerEvent: {}
+[49.269291] (-) TimerEvent: {}
+[49.370132] (-) TimerEvent: {}
+[49.470966] (-) TimerEvent: {}
+[49.571796] (-) TimerEvent: {}
+[49.672765] (-) TimerEvent: {}
+[49.773612] (-) TimerEvent: {}
+[49.874507] (-) TimerEvent: {}
+[49.975416] (-) TimerEvent: {}
+[50.076376] (-) TimerEvent: {}
+[50.177302] (-) TimerEvent: {}
+[50.278166] (-) TimerEvent: {}
+[50.378941] (-) TimerEvent: {}
+[50.479817] (-) TimerEvent: {}
+[50.580699] (-) TimerEvent: {}
+[50.681525] (-) TimerEvent: {}
+[50.782334] (-) TimerEvent: {}
+[50.883109] (-) TimerEvent: {}
+[50.983952] (-) TimerEvent: {}
+[51.084809] (-) TimerEvent: {}
+[51.185599] (-) TimerEvent: {}
+[51.286403] (-) TimerEvent: {}
+[51.387265] (-) TimerEvent: {}
+[51.488129] (-) TimerEvent: {}
+[51.589077] (-) TimerEvent: {}
+[51.689861] (-) TimerEvent: {}
+[51.790715] (-) TimerEvent: {}
+[51.891529] (-) TimerEvent: {}
+[51.992371] (-) TimerEvent: {}
+[52.093187] (-) TimerEvent: {}
+[52.193991] (-) TimerEvent: {}
+[52.294753] (-) TimerEvent: {}
+[52.395605] (-) TimerEvent: {}
+[52.496383] (-) TimerEvent: {}
+[52.597237] (-) TimerEvent: {}
+[52.697970] (-) TimerEvent: {}
+[52.798721] (-) TimerEvent: {}
+[52.899557] (-) TimerEvent: {}
+[53.000375] (-) TimerEvent: {}
+[53.101213] (-) TimerEvent: {}
+[53.202025] (-) TimerEvent: {}
+[53.302870] (-) TimerEvent: {}
+[53.403789] (-) TimerEvent: {}
+[53.504654] (-) TimerEvent: {}
+[53.605430] (-) TimerEvent: {}
+[53.706302] (-) TimerEvent: {}
+[53.807184] (-) TimerEvent: {}
+[53.907975] (-) TimerEvent: {}
+[54.008890] (-) TimerEvent: {}
+[54.109668] (-) TimerEvent: {}
+[54.210496] (-) TimerEvent: {}
+[54.311380] (-) TimerEvent: {}
+[54.412233] (-) TimerEvent: {}
+[54.513057] (-) TimerEvent: {}
+[54.613876] (-) TimerEvent: {}
+[54.714694] (-) TimerEvent: {}
+[54.815511] (-) TimerEvent: {}
+[54.916308] (-) TimerEvent: {}
+[55.017110] (-) TimerEvent: {}
+[55.117956] (-) TimerEvent: {}
+[55.218752] (-) TimerEvent: {}
+[55.319542] (-) TimerEvent: {}
+[55.420390] (-) TimerEvent: {}
+[55.521314] (-) TimerEvent: {}
+[55.622169] (-) TimerEvent: {}
+[55.722996] (-) TimerEvent: {}
+[55.823785] (-) TimerEvent: {}
+[55.924637] (-) TimerEvent: {}
+[56.025473] (-) TimerEvent: {}
+[56.126290] (-) TimerEvent: {}
+[56.227105] (-) TimerEvent: {}
+[56.327926] (-) TimerEvent: {}
+[56.428804] (-) TimerEvent: {}
+[56.529569] (-) TimerEvent: {}
+[56.630321] (-) TimerEvent: {}
+[56.731130] (-) TimerEvent: {}
+[56.832023] (-) TimerEvent: {}
+[56.933318] (-) TimerEvent: {}
+[57.034055] (-) TimerEvent: {}
+[57.134847] (-) TimerEvent: {}
+[57.235655] (-) TimerEvent: {}
+[57.336474] (-) TimerEvent: {}
+[57.437202] (-) TimerEvent: {}
+[57.537957] (-) TimerEvent: {}
+[57.638861] (-) TimerEvent: {}
+[57.739689] (-) TimerEvent: {}
+[57.840489] (-) TimerEvent: {}
+[57.941295] (-) TimerEvent: {}
+[58.042081] (-) TimerEvent: {}
+[58.143035] (-) TimerEvent: {}
+[58.243881] (-) TimerEvent: {}
+[58.344755] (-) TimerEvent: {}
+[58.445600] (-) TimerEvent: {}
+[58.546534] (-) TimerEvent: {}
+[58.647334] (-) TimerEvent: {}
+[58.748305] (-) TimerEvent: {}
+[58.849101] (-) TimerEvent: {}
+[58.949989] (-) TimerEvent: {}
+[59.050981] (-) TimerEvent: {}
+[59.144106] (nexus) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o] Error 1\n'}
+[59.145280] (nexus) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/icp_node.dir/all] Error 2\n'}
+[59.145860] (nexus) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[59.151138] (-) TimerEvent: {}
+[59.251871] (-) TimerEvent: {}
+[59.352771] (-) TimerEvent: {}
+[59.453508] (-) TimerEvent: {}
+[59.554207] (-) TimerEvent: {}
+[59.654992] (-) TimerEvent: {}
+[59.755693] (-) TimerEvent: {}
+[59.856427] (-) TimerEvent: {}
+[59.957102] (-) TimerEvent: {}
+[60.057809] (-) TimerEvent: {}
+[60.158538] (-) TimerEvent: {}
+[60.259247] (-) TimerEvent: {}
+[60.359916] (-) TimerEvent: {}
+[60.460730] (-) TimerEvent: {}
+[60.561430] (-) TimerEvent: {}
+[60.662118] (-) TimerEvent: {}
+[60.762792] (-) TimerEvent: {}
+[60.863572] (-) TimerEvent: {}
+[60.964305] (-) TimerEvent: {}
+[61.064972] (-) TimerEvent: {}
+[61.165777] (-) TimerEvent: {}
+[61.266756] (-) TimerEvent: {}
+[61.367632] (-) TimerEvent: {}
+[61.468713] (-) TimerEvent: {}
+[61.569719] (-) TimerEvent: {}
+[61.670677] (-) TimerEvent: {}
+[61.771618] (-) TimerEvent: {}
+[61.872579] (-) TimerEvent: {}
+[61.973554] (-) TimerEvent: {}
+[62.074631] (-) TimerEvent: {}
+[62.175610] (-) TimerEvent: {}
+[62.276345] (-) TimerEvent: {}
+[62.377058] (-) TimerEvent: {}
+[62.477779] (-) TimerEvent: {}
+[62.578539] (-) TimerEvent: {}
+[62.679286] (-) TimerEvent: {}
+[62.780006] (-) TimerEvent: {}
+[62.880753] (-) TimerEvent: {}
+[62.981453] (-) TimerEvent: {}
+[63.082166] (-) TimerEvent: {}
+[63.182934] (-) TimerEvent: {}
+[63.283672] (-) TimerEvent: {}
+[63.384442] (-) TimerEvent: {}
+[63.485168] (-) TimerEvent: {}
+[63.585878] (-) TimerEvent: {}
+[63.686661] (-) TimerEvent: {}
+[63.787355] (-) TimerEvent: {}
+[63.888068] (-) TimerEvent: {}
+[63.988834] (-) TimerEvent: {}
+[64.089550] (-) TimerEvent: {}
+[64.190238] (-) TimerEvent: {}
+[64.290903] (-) TimerEvent: {}
+[64.391824] (-) TimerEvent: {}
+[64.492569] (-) TimerEvent: {}
+[64.593284] (-) TimerEvent: {}
+[64.694013] (-) TimerEvent: {}
+[64.794727] (-) TimerEvent: {}
+[64.895470] (-) TimerEvent: {}
+[64.996177] (-) TimerEvent: {}
+[65.096917] (-) TimerEvent: {}
+[65.197643] (-) TimerEvent: {}
+[65.298381] (-) TimerEvent: {}
+[65.399090] (-) TimerEvent: {}
+[65.499847] (-) TimerEvent: {}
+[65.600605] (-) TimerEvent: {}
+[65.701534] (-) TimerEvent: {}
+[65.803340] (-) TimerEvent: {}
+[65.905565] (-) TimerEvent: {}
+[66.006497] (-) TimerEvent: {}
+[66.107213] (-) TimerEvent: {}
+[66.208038] (-) TimerEvent: {}
+[66.309272] (-) TimerEvent: {}
+[66.410187] (-) TimerEvent: {}
+[66.511046] (-) TimerEvent: {}
+[66.612044] (-) TimerEvent: {}
+[66.713202] (-) TimerEvent: {}
+[66.813997] (-) TimerEvent: {}
+[66.914880] (-) TimerEvent: {}
+[67.016038] (-) TimerEvent: {}
+[67.111692] (nexus) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable main_node\x1b[0m\n'}
+[67.116215] (-) TimerEvent: {}
+[67.217023] (-) TimerEvent: {}
+[67.317995] (-) TimerEvent: {}
+[67.418801] (-) TimerEvent: {}
+[67.519811] (-) TimerEvent: {}
+[67.620712] (-) TimerEvent: {}
+[67.721714] (-) TimerEvent: {}
+[67.822894] (-) TimerEvent: {}
+[67.923783] (-) TimerEvent: {}
+[68.024850] (-) TimerEvent: {}
+[68.126039] (-) TimerEvent: {}
+[68.226887] (-) TimerEvent: {}
+[68.327846] (-) TimerEvent: {}
+[68.429186] (-) TimerEvent: {}
+[68.530071] (-) TimerEvent: {}
+[68.630890] (-) TimerEvent: {}
+[68.731657] (-) TimerEvent: {}
+[68.832343] (-) TimerEvent: {}
+[68.932959] (-) TimerEvent: {}
+[69.033584] (-) TimerEvent: {}
+[69.134726] (-) TimerEvent: {}
+[69.235404] (-) TimerEvent: {}
+[69.336145] (-) TimerEvent: {}
+[69.437536] (-) TimerEvent: {}
+[69.538178] (-) TimerEvent: {}
+[69.638808] (-) TimerEvent: {}
+[69.739492] (-) TimerEvent: {}
+[69.840544] (-) TimerEvent: {}
+[69.941908] (-) TimerEvent: {}
+[70.042516] (-) TimerEvent: {}
+[70.143147] (-) TimerEvent: {}
+[70.243870] (-) TimerEvent: {}
+[70.277993] (nexus) StdoutLine: {'line': b'[ 75%] Built target main_node\n'}
+[70.281782] (nexus) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[70.288726] (nexus) CommandEnded: {'returncode': 2}
+[70.344038] (-) TimerEvent: {}
+[70.444987] (-) TimerEvent: {}
+[70.476489] (nexus) JobEnded: {'identifier': 'nexus', 'rc': 2}
+[70.488841] (-) EventReactorShutdown: {}

@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001220] (-) JobUnselected: {'identifier': 'bno055'}
+[0.001446] (-) JobUnselected: {'identifier': 'bringup_robot'}
+[0.001591] (-) JobUnselected: {'identifier': 'joy'}
+[0.001668] (-) JobUnselected: {'identifier': 'nexus'}
+[0.001743] (-) JobUnselected: {'identifier': 'robot'}
+[0.001816] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001899] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.002049] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.098038] (-) TimerEvent: {}
+[0.198636] (-) TimerEvent: {}
+[0.299303] (-) TimerEvent: {}
+[0.399904] (-) TimerEvent: {}
+[0.500495] (-) TimerEvent: {}
+[0.601098] (-) TimerEvent: {}
+[0.701705] (-) TimerEvent: {}
+[0.802338] (-) TimerEvent: {}
+[0.903081] (-) TimerEvent: {}
+[1.003719] (-) TimerEvent: {}
+[1.104305] (-) TimerEvent: {}
+[1.205027] (-) TimerEvent: {}
+[1.305814] (-) TimerEvent: {}
+[1.406651] (-) TimerEvent: {}
+[1.507335] (-) TimerEvent: {}
+[1.607935] (-) TimerEvent: {}
+[1.708512] (-) TimerEvent: {}
+[1.809085] (-) TimerEvent: {}
+[1.909666] (-) TimerEvent: {}
+[2.010264] (-) TimerEvent: {}
+[2.110873] (-) TimerEvent: {}
+[2.211493] (-) TimerEvent: {}
+[2.312081] (-) TimerEvent: {}
+[2.412687] (-) TimerEvent: {}
+[2.513311] (-) TimerEvent: {}
+[2.613923] (-) TimerEvent: {}
+[2.714682] (-) TimerEvent: {}
+[2.809749] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/divspanpi2/robo_ws/build/my_robot_controller/build', 'install', '--record', '/home/divspanpi2/robo_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/divspanpi2/robo_ws/src/my_robot_controller', 'env': {'LC_TIME': 'id_ID.UTF-8', 'USER': 'divspanpi2', 'SSH_CLIENT': '192.168.1.184 34934 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/divspanpi2/robo_ws/install/joy/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/divspanpi2', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/divspanpi2', 'LESS': '-R', 'SSH_TTY': '/dev/pts/3', 'ZSH': '/home/divspanpi2/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/divspanpi2/robo_ws/install', 'LOGNAME': 'divspanpi2', '_P9K_SSH_TTY': '/dev/pts/3', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/my_robot_controller:/home/divspanpi2/robo_ws/install/joy:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble', 'LC_NAME': 'id_ID.UTF-8', 'SHELL': '/usr/bin/zsh', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'P9K_SSH': '1', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/divspanpi2/robo_ws/build/my_robot_controller', 'SSH_CONNECTION': '192.168.1.184 34934 192.168.1.227 22', '_P9K_TTY': '/dev/pts/3', 'LC_NUMERIC': 'id_ID.UTF-8', 'PYTHONPATH': '/home/divspanpi2/robo_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/nexus:/home/divspanpi2/robo_ws/install/joy'}, 'shell': False}
+[2.817523] (-) TimerEvent: {}
+[2.921571] (-) TimerEvent: {}
+[3.022188] (-) TimerEvent: {}
+[3.122881] (-) TimerEvent: {}
+[3.223535] (-) TimerEvent: {}
+[3.324122] (-) TimerEvent: {}
+[3.424724] (-) TimerEvent: {}
+[3.525345] (-) TimerEvent: {}
+[3.625918] (-) TimerEvent: {}
+[3.726531] (-) TimerEvent: {}
+[3.827324] (-) TimerEvent: {}
+[3.927931] (-) TimerEvent: {}
+[3.954814] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.957780] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[3.958939] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[3.960118] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[3.960866] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[3.961432] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[3.971236] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[3.977202] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[3.977822] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[3.978174] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.986220] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/icp_algorithm.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[3.990277] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[3.991503] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[4.002080] (my_robot_controller) StdoutLine: {'line': b'copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/icp_algorithm.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[4.010101] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/icp_algorithm.py to icp_algorithm.cpython-310.pyc\n'}
+[4.016042] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[4.016654] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.023361] (my_robot_controller) StdoutLine: {'line': b"removing '/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.025093] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[4.028050] (-) TimerEvent: {}
+[4.030753] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[4.112147] (my_robot_controller) StdoutLine: {'line': b'Installing ekf_fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.113089] (my_robot_controller) StdoutLine: {'line': b'Installing fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.113872] (my_robot_controller) StdoutLine: {'line': b'Installing icp_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.114679] (my_robot_controller) StdoutLine: {'line': b'Installing imu_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.115405] (my_robot_controller) StdoutLine: {'line': b'Installing imu_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.116354] (my_robot_controller) StdoutLine: {'line': b'Installing imu_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.117204] (my_robot_controller) StdoutLine: {'line': b'Installing lidar_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.118112] (my_robot_controller) StdoutLine: {'line': b'Installing nav_test_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.119058] (my_robot_controller) StdoutLine: {'line': b'Installing obstacle_monitor script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.120069] (my_robot_controller) StdoutLine: {'line': b'Installing odom_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.121161] (my_robot_controller) StdoutLine: {'line': b'Installing odom_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.121883] (my_robot_controller) StdoutLine: {'line': b'Installing odom_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.123238] (my_robot_controller) StdoutLine: {'line': b'Installing path_listener script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.124120] (my_robot_controller) StdoutLine: {'line': b'Installing path_saver script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.124919] (my_robot_controller) StdoutLine: {'line': b'Installing tracking_object script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.125704] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_controller script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.128176] (-) TimerEvent: {}
+[4.129752] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/divspanpi2/robo_ws/build/my_robot_controller/install.log'\n"}
+[4.228438] (-) TimerEvent: {}
+[4.247312] (my_robot_controller) CommandEnded: {'returncode': 0}
+[4.298317] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[4.301233] (-) EventReactorShutdown: {}

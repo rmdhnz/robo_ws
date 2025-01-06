@@ -1,0 +1,26 @@
+[3.020s] Invoking command in '/home/divspanpi2/robo_ws/src/robot': PYTHONPATH=/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/divspanpi2/robo_ws/build/robot/build install --record /home/divspanpi2/robo_ws/build/robot/install.log --single-version-externally-managed install_data
+[4.452s] running egg_info
+[4.455s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[4.456s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[4.457s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[4.457s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[4.458s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[4.466s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[4.468s] adding license file 'LICENSE'
+[4.470s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[4.471s] running build
+[4.471s] running build_py
+[4.472s] copying robot/node_serial.py -> /home/divspanpi2/robo_ws/build/robot/build/lib/robot
+[4.473s] running install
+[4.474s] running install_lib
+[4.479s] copying /home/divspanpi2/robo_ws/build/robot/build/lib/robot/node_serial.py -> /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot
+[4.483s] byte-compiling /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot/node_serial.py to node_serial.cpython-310.pyc
+[4.485s] Sorry: IndentationError: expected an indented block after 'if' statement on line 20 (node_serial.py, line 26)
+[4.485s] running install_data
+[4.486s] running install_egg_info
+[4.493s] removing '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[4.494s] Copying ../../build/robot/robot.egg-info to /home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[4.500s] running install_scripts
+[4.583s] Installing node_serial script to /home/divspanpi2/robo_ws/install/robot/lib/robot
+[4.585s] writing list of installed files to '/home/divspanpi2/robo_ws/build/robot/install.log'
+[4.709s] Invoked command in '/home/divspanpi2/robo_ws/src/robot' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/divspanpi2/robo_ws/build/robot/build install --record /home/divspanpi2/robo_ws/build/robot/install.log --single-version-externally-managed install_data

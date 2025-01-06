@@ -1,0 +1,2 @@
+Invoking command in '/home/divspanpi2/robo_ws/build/nexus': /usr/bin/cmake /home/divspanpi2/robo_ws/src/nexus -DCMAKE_INSTALL_PREFIX=/home/divspanpi2/robo_ws/install/nexus
+Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '1': /usr/bin/cmake /home/divspanpi2/robo_ws/src/nexus -DCMAKE_INSTALL_PREFIX=/home/divspanpi2/robo_ws/install/nexus

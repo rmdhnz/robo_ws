@@ -1,0 +1,39 @@
+[2.633s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[2.676s] gmake: Warning: File 'Makefile' has modification time 331322 s in the future
+[2.883s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 331322 s in the future
+[2.914s] gmake[2]: Warning: File 'CMakeFiles/main_node.dir/progress.make' has modification time 331322 s in the future
+[2.948s] gmake[2]: Warning: File 'CMakeFiles/icp_node.dir/flags.make' has modification time 162593 s in the future
+[3.009s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.036s] [35m[1mConsolidate compiler generated dependencies of target icp_node[0m
+[3.042s] gmake[2]: Warning: File 'CMakeFiles/main_node.dir/progress.make' has modification time 331321 s in the future
+[3.143s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.176s] gmake[2]: Warning: File 'CMakeFiles/icp_node.dir/flags.make' has modification time 162592 s in the future
+[3.193s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[3.796s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o[0m
+[70.597s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[70.633s] [ 75%] Built target main_node
+[90.823s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[90.857s] [100%] Built target icp_node
+[90.861s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[90.890s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[90.897s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[91.055s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus
+[91.087s] -- Install configuration: ""
+[91.092s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node
+[91.097s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node
+[91.099s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus
+[91.101s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus
+[91.101s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh
+[91.102s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv
+[91.103s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh
+[91.103s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv
+[91.104s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash
+[91.104s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh
+[91.105s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh
+[91.105s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv
+[91.106s] -- Installing: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv
+[91.109s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus
+[91.109s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake
+[91.110s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake
+[91.110s] -- Up-to-date: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml
+[91.117s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus

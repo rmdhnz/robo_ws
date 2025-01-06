@@ -1,0 +1,14 @@
+gmake[2]: Warning: File '/home/divspanpi2/robo_ws/src/nexus/src/main.cpp' has modification time 25168 s in the future
+gmake[2]: Warning: File '/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp' has modification time 24254 s in the future
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:[m[K In member function ‘[01m[Kvoid ICPNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:30:14:[m[K [01;31m[Kerror: [m[K‘[01m[KremoveNaNFromPointCloud[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   30 |         pcl::[01;31m[KremoveNaNFromPointCloud[m[K(*cloud, *cloud, indices);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/lidar/icp_node.cpp:31:14:[m[K [01;31m[Kerror: [m[K‘[01m[KremoveNaNFromPointCloud[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   31 |         pcl::[01;31m[KremoveNaNFromPointCloud[m[K(*cloud, *cloud, indices);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/icp_node.dir/build.make:76: CMakeFiles/icp_node.dir/src/lidar/icp_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/icp_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake: *** [Makefile:146: all] Error 2

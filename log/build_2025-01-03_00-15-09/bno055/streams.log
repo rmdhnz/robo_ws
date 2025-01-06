@@ -1,0 +1,27 @@
+[2.721s] Invoking command in '/home/divspanpi2/robo_ws/src/bno055': PYTHONPATH=/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/divspanpi2/robo_ws/build/bno055/build install --record /home/divspanpi2/robo_ws/build/bno055/install.log --single-version-externally-managed install_data
+[3.812s] running egg_info
+[3.815s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[3.821s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[3.822s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[3.823s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[3.823s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[3.836s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[3.838s] adding license file 'LICENSE'
+[3.838s] adding license file 'AUTHORS'
+[3.841s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[3.841s] running build
+[3.842s] running build_py
+[3.846s] copying bno055/sensor/SensorService.py -> /home/divspanpi2/robo_ws/build/bno055/build/lib/bno055/sensor
+[3.850s] running install
+[3.851s] running install_lib
+[3.857s] copying /home/divspanpi2/robo_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor
+[3.861s] byte-compiling /home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055/bno055.py to bno055.cpython-310.pyc
+[3.865s] byte-compiling /home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-310.pyc
+[3.877s] running install_data
+[3.878s] running install_egg_info
+[3.885s] removing '/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info' (and everything under it)
+[3.886s] Copying ../../build/bno055/bno055.egg-info to /home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info
+[3.891s] running install_scripts
+[3.970s] Installing bno055 script to /home/divspanpi2/robo_ws/install/bno055/lib/bno055
+[3.973s] writing list of installed files to '/home/divspanpi2/robo_ws/build/bno055/install.log'
+[4.090s] Invoked command in '/home/divspanpi2/robo_ws/src/bno055' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/divspanpi2/robo_ws/build/bno055/build install --record /home/divspanpi2/robo_ws/build/bno055/install.log --single-version-externally-managed install_data

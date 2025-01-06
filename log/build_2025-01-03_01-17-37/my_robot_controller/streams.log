@@ -1,0 +1,39 @@
+[2.808s] Invoking command in '/home/divspanpi2/robo_ws/src/my_robot_controller': PYTHONPATH=/home/divspanpi2/robo_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/divspanpi2/robo_ws/build/my_robot_controller/build install --record /home/divspanpi2/robo_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[3.944s] running egg_info
+[3.947s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[3.948s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[3.949s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[3.950s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[3.950s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[3.960s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.966s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[3.967s] running build
+[3.967s] running build_py
+[3.975s] copying my_robot_controller/icp_algorithm.py -> /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller
+[3.979s] running install
+[3.980s] running install_lib
+[3.991s] copying /home/divspanpi2/robo_ws/build/my_robot_controller/build/lib/my_robot_controller/icp_algorithm.py -> /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[3.999s] byte-compiling /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/icp_algorithm.py to icp_algorithm.cpython-310.pyc
+[4.005s] running install_data
+[4.006s] running install_egg_info
+[4.013s] removing '/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[4.014s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[4.020s] running install_scripts
+[4.101s] Installing ekf_fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.102s] Installing fusion_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.103s] Installing icp_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.103s] Installing imu_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.104s] Installing imu_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.105s] Installing imu_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.106s] Installing lidar_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.107s] Installing nav_test_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.108s] Installing obstacle_monitor script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.109s] Installing odom_filtered_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.110s] Installing odom_node script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.110s] Installing odom_raw_data script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.112s] Installing path_listener script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.113s] Installing path_saver script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.113s] Installing tracking_object script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.114s] Installing turtle_controller script to /home/divspanpi2/robo_ws/install/my_robot_controller/lib/my_robot_controller
+[4.118s] writing list of installed files to '/home/divspanpi2/robo_ws/build/my_robot_controller/install.log'
+[4.236s] Invoked command in '/home/divspanpi2/robo_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/divspanpi2/robo_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divspanpi2/robo_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/divspanpi2/robo_ws/build/my_robot_controller/build install --record /home/divspanpi2/robo_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

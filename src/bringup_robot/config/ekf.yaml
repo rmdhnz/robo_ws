@@ -1,0 +1,29 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0                      # Frekuensi eksekusi filter (Hz)
+    sensor_timeout: 0.1                  # Timeout data sensor (detik)
+    two_d_mode: true                     # Mode 2D untuk gerakan di permukaan datar
+    publish_tf: true                     # Mengaktifkan publikasi TF
+    map_frame: map                       # Nama frame global
+    odom_frame: odom                     # Nama frame odometry
+    base_link_frame: base_link           # Nama frame robot
+
+    # Konfigurasi sensor odometry
+    odom0: /odom                         # Nama topik odometry
+    odom0_config: [true,  true,  false,  # x, y, z (posisi)
+                  false, false, false,    # roll, pitch, yaw (orientasi)
+                  false,  false,  false,   # vx, vy, vz (kecepatan linear)
+                  false, false, false]    # vroll, vpitch, vyaw (kecepatan sudut)
+    odom0_differential: false            # Data odometry bersifat absolut
+    odom0_queue_size: 10                 # Ukuran antrian pesan
+    odom0_covariance: 0.1                # Kovariansi pengukuran odometry
+
+    # Konfigurasi sensor IMU
+    imu0: /bno055/euler                     # Nama topik IMU
+    imu0_config: [false, false, false,    # x, y, z (posisi)
+                  false,  false,  true,     # roll, pitch, yaw (orientasi)
+                  false, false, false,    # vx, vy, vz (kecepatan linear)
+                  false,  false,  false]     # vroll, vpitch, vyaw (kecepatan sudut)
+    imu0_differential: true               # Data IMU bersifat diferensial
+    imu0_queue_size: 10                   # Ukuran antrian pesan
+    imu0_covariance: 0.02                 # Kovariansi pengukuran IMU

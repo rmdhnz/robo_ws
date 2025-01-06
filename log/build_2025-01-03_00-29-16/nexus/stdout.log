@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[ 75%] Built target icp_node

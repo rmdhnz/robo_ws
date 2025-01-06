@@ -1,0 +1,728 @@
+[0.000000] (-) TimerEvent: {}
+[0.001526] (-) JobUnselected: {'identifier': 'robot'}
+[0.001649] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001740] (joy) JobQueued: {'identifier': 'joy', 'dependencies': OrderedDict()}
+[0.001824] (joy) JobStarted: {'identifier': 'joy'}
+[0.040327] (joy) JobProgress: {'identifier': 'joy', 'progress': 'cmake'}
+[0.041174] (joy) Command: {'cmd': ['/usr/bin/cmake', '/home/divspanpi2/robo_ws/src/joy', '-DCMAKE_INSTALL_PREFIX=/home/divspanpi2/robo_ws/install/joy'], 'cwd': '/home/divspanpi2/robo_ws/build/joy', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.69.3 52108 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/3'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/3'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/joy'), ('SSH_CONNECTION', '192.168.69.3 52108 192.168.69.5 22'), ('_P9K_TTY', '/dev/pts/3'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[0.099124] (-) TimerEvent: {}
+[0.200025] (-) TimerEvent: {}
+[0.300806] (-) TimerEvent: {}
+[0.313113] (joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401035] (-) TimerEvent: {}
+[0.502044] (-) TimerEvent: {}
+[0.567329] (joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.598741] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602181] (-) TimerEvent: {}
+[0.702900] (-) TimerEvent: {}
+[0.803781] (-) TimerEvent: {}
+[0.904604] (-) TimerEvent: {}
+[0.915467] (joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.942170] (joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.942939] (joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.944360] (joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.955250] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004829] (-) TimerEvent: {}
+[1.105728] (-) TimerEvent: {}
+[1.206529] (-) TimerEvent: {}
+[1.299504] (joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.306660] (-) TimerEvent: {}
+[1.327072] (joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.328021] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.329624] (joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.358675] (joy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.406849] (-) TimerEvent: {}
+[1.507563] (-) TimerEvent: {}
+[1.608227] (-) TimerEvent: {}
+[1.708990] (-) TimerEvent: {}
+[1.809799] (-) TimerEvent: {}
+[1.910505] (-) TimerEvent: {}
+[2.011139] (-) TimerEvent: {}
+[2.111747] (-) TimerEvent: {}
+[2.200130] (joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.211987] (-) TimerEvent: {}
+[2.312702] (-) TimerEvent: {}
+[2.413346] (-) TimerEvent: {}
+[2.514007] (-) TimerEvent: {}
+[2.614649] (-) TimerEvent: {}
+[2.715288] (-) TimerEvent: {}
+[2.815914] (-) TimerEvent: {}
+[2.849262] (joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.916076] (-) TimerEvent: {}
+[3.016774] (-) TimerEvent: {}
+[3.117409] (-) TimerEvent: {}
+[3.218051] (-) TimerEvent: {}
+[3.238006] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.291097] (joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.318201] (-) TimerEvent: {}
+[3.357894] (joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.418361] (-) TimerEvent: {}
+[3.439866] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.518524] (-) TimerEvent: {}
+[3.554226] (joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.618679] (-) TimerEvent: {}
+[3.719318] (-) TimerEvent: {}
+[3.820343] (-) TimerEvent: {}
+[3.883157] (joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.910384] (joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.920489] (-) TimerEvent: {}
+[4.021145] (-) TimerEvent: {}
+[4.121790] (-) TimerEvent: {}
+[4.222440] (-) TimerEvent: {}
+[4.323137] (-) TimerEvent: {}
+[4.423972] (-) TimerEvent: {}
+[4.498461] (joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.524124] (-) TimerEvent: {}
+[4.624770] (-) TimerEvent: {}
+[4.725454] (-) TimerEvent: {}
+[4.761712] (joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.825626] (-) TimerEvent: {}
+[4.926317] (-) TimerEvent: {}
+[5.027015] (-) TimerEvent: {}
+[5.127709] (-) TimerEvent: {}
+[5.188229] (joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.227871] (-) TimerEvent: {}
+[5.272778] (joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.328186] (-) TimerEvent: {}
+[5.429221] (-) TimerEvent: {}
+[5.530288] (-) TimerEvent: {}
+[5.603642] (joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.604961] (joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.630447] (-) TimerEvent: {}
+[5.731154] (-) TimerEvent: {}
+[5.831986] (-) TimerEvent: {}
+[5.932848] (-) TimerEvent: {}
+[5.938780] (joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.944019] (joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.033065] (-) TimerEvent: {}
+[6.133753] (-) TimerEvent: {}
+[6.231024] (joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[6.233879] (-) TimerEvent: {}
+[6.334529] (-) TimerEvent: {}
+[6.435202] (-) TimerEvent: {}
+[6.530309] (joy) StdoutLine: {'line': b'-- Found sdl2_vendor: 3.3.0 (/opt/ros/humble/share/sdl2_vendor/cmake)\n'}
+[6.535353] (-) TimerEvent: {}
+[6.593585] (joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.635528] (-) TimerEvent: {}
+[6.736244] (-) TimerEvent: {}
+[6.765006] (joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.836576] (-) TimerEvent: {}
+[6.937768] (-) TimerEvent: {}
+[7.038673] (-) TimerEvent: {}
+[7.139648] (-) TimerEvent: {}
+[7.240326] (-) TimerEvent: {}
+[7.324336] (joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.325276] (joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/divspanpi2/robo_ws/src/joy/include>\n'}
+[7.325721] (joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.340485] (-) TimerEvent: {}
+[7.341111] (joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.341640] (joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.347602] (joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.353678] (joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.358401] (joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.372244] (joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.372784] (joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.378413] (joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.388565] (joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.440692] (-) TimerEvent: {}
+[7.511575] (joy) StdoutLine: {'line': b'-- Generating done\n'}
+[7.520049] (joy) StdoutLine: {'line': b'-- Build files have been written to: /home/divspanpi2/robo_ws/build/joy\n'}
+[7.541029] (-) TimerEvent: {}
+[7.565181] (joy) CommandEnded: {'returncode': 0}
+[7.567207] (joy) JobProgress: {'identifier': 'joy', 'progress': 'build'}
+[7.569747] (joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/divspanpi2/robo_ws/build/joy', '--', '-j4', '-l4'], 'cwd': '/home/divspanpi2/robo_ws/build/joy', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.69.3 52108 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/3'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/3'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/joy'), ('SSH_CONNECTION', '192.168.69.3 52108 192.168.69.5 22'), ('_P9K_TTY', '/dev/pts/3'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[7.641233] (-) TimerEvent: {}
+[7.742126] (-) TimerEvent: {}
+[7.801378] (joy) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o\x1b[0m\n'}
+[7.806715] (joy) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o\x1b[0m\n'}
+[7.807519] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/game_controller.dir/src/game_controller.cpp.o\x1b[0m\n'}
+[7.808313] (joy) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/game_controller_node.dir/rclcpp_components/node_main_game_controller_node.cpp.o\x1b[0m\n'}
+[7.842412] (-) TimerEvent: {}
+[7.943736] (-) TimerEvent: {}
+[8.044725] (-) TimerEvent: {}
+[8.145571] (-) TimerEvent: {}
+[8.246397] (-) TimerEvent: {}
+[8.347249] (-) TimerEvent: {}
+[8.448044] (-) TimerEvent: {}
+[8.548828] (-) TimerEvent: {}
+[8.650099] (-) TimerEvent: {}
+[8.750991] (-) TimerEvent: {}
+[8.851711] (-) TimerEvent: {}
+[8.952943] (-) TimerEvent: {}
+[9.053739] (-) TimerEvent: {}
+[9.154857] (-) TimerEvent: {}
+[9.255619] (-) TimerEvent: {}
+[9.356367] (-) TimerEvent: {}
+[9.457307] (-) TimerEvent: {}
+[9.558171] (-) TimerEvent: {}
+[9.659041] (-) TimerEvent: {}
+[9.759985] (-) TimerEvent: {}
+[9.860914] (-) TimerEvent: {}
+[9.962169] (-) TimerEvent: {}
+[10.063212] (-) TimerEvent: {}
+[10.164398] (-) TimerEvent: {}
+[10.265736] (-) TimerEvent: {}
+[10.367087] (-) TimerEvent: {}
+[10.468284] (-) TimerEvent: {}
+[10.569517] (-) TimerEvent: {}
+[10.670884] (-) TimerEvent: {}
+[10.771988] (-) TimerEvent: {}
+[10.873041] (-) TimerEvent: {}
+[10.974356] (-) TimerEvent: {}
+[11.075605] (-) TimerEvent: {}
+[11.176740] (-) TimerEvent: {}
+[11.277737] (-) TimerEvent: {}
+[11.378953] (-) TimerEvent: {}
+[11.480492] (-) TimerEvent: {}
+[11.581957] (-) TimerEvent: {}
+[11.683280] (-) TimerEvent: {}
+[11.784508] (-) TimerEvent: {}
+[11.885643] (-) TimerEvent: {}
+[11.987144] (-) TimerEvent: {}
+[12.088434] (-) TimerEvent: {}
+[12.189627] (-) TimerEvent: {}
+[12.291184] (-) TimerEvent: {}
+[12.392503] (-) TimerEvent: {}
+[12.493876] (-) TimerEvent: {}
+[12.595004] (-) TimerEvent: {}
+[12.696161] (-) TimerEvent: {}
+[12.797820] (-) TimerEvent: {}
+[12.899137] (-) TimerEvent: {}
+[13.000175] (-) TimerEvent: {}
+[13.101211] (-) TimerEvent: {}
+[13.202203] (-) TimerEvent: {}
+[13.303216] (-) TimerEvent: {}
+[13.404393] (-) TimerEvent: {}
+[13.505422] (-) TimerEvent: {}
+[13.606595] (-) TimerEvent: {}
+[13.707799] (-) TimerEvent: {}
+[13.808794] (-) TimerEvent: {}
+[13.910251] (-) TimerEvent: {}
+[14.011611] (-) TimerEvent: {}
+[14.112909] (-) TimerEvent: {}
+[14.214134] (-) TimerEvent: {}
+[14.315168] (-) TimerEvent: {}
+[14.416168] (-) TimerEvent: {}
+[14.517135] (-) TimerEvent: {}
+[14.618148] (-) TimerEvent: {}
+[14.719225] (-) TimerEvent: {}
+[14.820506] (-) TimerEvent: {}
+[14.921557] (-) TimerEvent: {}
+[15.022842] (-) TimerEvent: {}
+[15.124089] (-) TimerEvent: {}
+[15.225493] (-) TimerEvent: {}
+[15.326593] (-) TimerEvent: {}
+[15.427696] (-) TimerEvent: {}
+[15.528778] (-) TimerEvent: {}
+[15.629992] (-) TimerEvent: {}
+[15.731390] (-) TimerEvent: {}
+[15.832460] (-) TimerEvent: {}
+[15.933806] (-) TimerEvent: {}
+[16.035303] (-) TimerEvent: {}
+[16.136810] (-) TimerEvent: {}
+[16.238132] (-) TimerEvent: {}
+[16.339316] (-) TimerEvent: {}
+[16.440598] (-) TimerEvent: {}
+[16.541888] (-) TimerEvent: {}
+[16.643305] (-) TimerEvent: {}
+[16.744777] (-) TimerEvent: {}
+[16.846005] (-) TimerEvent: {}
+[16.947239] (-) TimerEvent: {}
+[17.048348] (-) TimerEvent: {}
+[17.149491] (-) TimerEvent: {}
+[17.250583] (-) TimerEvent: {}
+[17.351729] (-) TimerEvent: {}
+[17.453002] (-) TimerEvent: {}
+[17.554187] (-) TimerEvent: {}
+[17.655301] (-) TimerEvent: {}
+[17.756373] (-) TimerEvent: {}
+[17.857622] (-) TimerEvent: {}
+[17.959228] (-) TimerEvent: {}
+[18.060492] (-) TimerEvent: {}
+[18.161732] (-) TimerEvent: {}
+[18.262962] (-) TimerEvent: {}
+[18.364240] (-) TimerEvent: {}
+[18.465406] (-) TimerEvent: {}
+[18.566580] (-) TimerEvent: {}
+[18.667850] (-) TimerEvent: {}
+[18.769118] (-) TimerEvent: {}
+[18.870423] (-) TimerEvent: {}
+[18.971722] (-) TimerEvent: {}
+[19.072896] (-) TimerEvent: {}
+[19.173996] (-) TimerEvent: {}
+[19.275016] (-) TimerEvent: {}
+[19.376101] (-) TimerEvent: {}
+[19.477308] (-) TimerEvent: {}
+[19.578443] (-) TimerEvent: {}
+[19.679979] (-) TimerEvent: {}
+[19.781254] (-) TimerEvent: {}
+[19.882403] (-) TimerEvent: {}
+[19.983596] (-) TimerEvent: {}
+[20.084898] (-) TimerEvent: {}
+[20.186345] (-) TimerEvent: {}
+[20.287905] (-) TimerEvent: {}
+[20.389125] (-) TimerEvent: {}
+[20.490290] (-) TimerEvent: {}
+[20.591375] (-) TimerEvent: {}
+[20.692511] (-) TimerEvent: {}
+[20.793578] (-) TimerEvent: {}
+[20.894720] (-) TimerEvent: {}
+[20.995792] (-) TimerEvent: {}
+[21.096969] (-) TimerEvent: {}
+[21.198091] (-) TimerEvent: {}
+[21.299141] (-) TimerEvent: {}
+[21.400214] (-) TimerEvent: {}
+[21.501318] (-) TimerEvent: {}
+[21.602518] (-) TimerEvent: {}
+[21.703733] (-) TimerEvent: {}
+[21.804867] (-) TimerEvent: {}
+[21.906084] (-) TimerEvent: {}
+[22.007145] (-) TimerEvent: {}
+[22.108249] (-) TimerEvent: {}
+[22.209508] (-) TimerEvent: {}
+[22.310533] (-) TimerEvent: {}
+[22.411559] (-) TimerEvent: {}
+[22.512614] (-) TimerEvent: {}
+[22.613647] (-) TimerEvent: {}
+[22.714713] (-) TimerEvent: {}
+[22.815793] (-) TimerEvent: {}
+[22.916837] (-) TimerEvent: {}
+[23.018085] (-) TimerEvent: {}
+[23.119130] (-) TimerEvent: {}
+[23.220203] (-) TimerEvent: {}
+[23.321287] (-) TimerEvent: {}
+[23.422361] (-) TimerEvent: {}
+[23.523362] (-) TimerEvent: {}
+[23.624510] (-) TimerEvent: {}
+[23.725638] (-) TimerEvent: {}
+[23.826677] (-) TimerEvent: {}
+[23.927838] (-) TimerEvent: {}
+[24.028837] (-) TimerEvent: {}
+[24.129883] (-) TimerEvent: {}
+[24.234471] (-) TimerEvent: {}
+[24.335531] (-) TimerEvent: {}
+[24.436720] (-) TimerEvent: {}
+[24.537960] (-) TimerEvent: {}
+[24.639151] (-) TimerEvent: {}
+[24.740303] (-) TimerEvent: {}
+[24.841448] (-) TimerEvent: {}
+[24.942654] (-) TimerEvent: {}
+[25.043854] (-) TimerEvent: {}
+[25.144933] (-) TimerEvent: {}
+[25.245966] (-) TimerEvent: {}
+[25.347013] (-) TimerEvent: {}
+[25.448014] (-) TimerEvent: {}
+[25.548998] (-) TimerEvent: {}
+[25.650241] (-) TimerEvent: {}
+[25.751580] (-) TimerEvent: {}
+[25.852590] (-) TimerEvent: {}
+[25.953755] (-) TimerEvent: {}
+[26.055010] (-) TimerEvent: {}
+[26.156036] (-) TimerEvent: {}
+[26.257105] (-) TimerEvent: {}
+[26.358156] (-) TimerEvent: {}
+[26.459191] (-) TimerEvent: {}
+[26.560341] (-) TimerEvent: {}
+[26.661406] (-) TimerEvent: {}
+[26.762412] (-) TimerEvent: {}
+[26.863621] (-) TimerEvent: {}
+[26.964655] (-) TimerEvent: {}
+[27.065715] (-) TimerEvent: {}
+[27.166774] (-) TimerEvent: {}
+[27.267894] (-) TimerEvent: {}
+[27.369041] (-) TimerEvent: {}
+[27.471692] (-) TimerEvent: {}
+[27.573962] (-) TimerEvent: {}
+[27.676564] (-) TimerEvent: {}
+[27.770840] (joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable game_controller_node\x1b[0m\n'}
+[27.776826] (-) TimerEvent: {}
+[27.878676] (-) TimerEvent: {}
+[27.953857] (joy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable joy_node\x1b[0m\n'}
+[27.979000] (-) TimerEvent: {}
+[28.080272] (-) TimerEvent: {}
+[28.182532] (-) TimerEvent: {}
+[28.285138] (-) TimerEvent: {}
+[28.388102] (-) TimerEvent: {}
+[28.490739] (-) TimerEvent: {}
+[28.592908] (-) TimerEvent: {}
+[28.695825] (-) TimerEvent: {}
+[28.802332] (-) TimerEvent: {}
+[28.872898] (joy) StdoutLine: {'line': b'[ 60%] Built target game_controller_node\n'}
+[28.902632] (-) TimerEvent: {}
+[28.980784] (joy) StdoutLine: {'line': b'[ 60%] Built target joy_node\n'}
+[29.002939] (-) TimerEvent: {}
+[29.011247] (joy) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o\x1b[0m\n'}
+[29.103169] (-) TimerEvent: {}
+[29.204226] (-) TimerEvent: {}
+[29.305484] (-) TimerEvent: {}
+[29.406486] (-) TimerEvent: {}
+[29.507422] (-) TimerEvent: {}
+[29.608368] (-) TimerEvent: {}
+[29.709262] (-) TimerEvent: {}
+[29.810133] (-) TimerEvent: {}
+[29.911039] (-) TimerEvent: {}
+[30.011934] (-) TimerEvent: {}
+[30.112953] (-) TimerEvent: {}
+[30.213842] (-) TimerEvent: {}
+[30.314759] (-) TimerEvent: {}
+[30.415658] (-) TimerEvent: {}
+[30.516638] (-) TimerEvent: {}
+[30.617598] (-) TimerEvent: {}
+[30.718536] (-) TimerEvent: {}
+[30.819442] (-) TimerEvent: {}
+[30.920395] (-) TimerEvent: {}
+[31.021265] (-) TimerEvent: {}
+[31.122156] (-) TimerEvent: {}
+[31.223022] (-) TimerEvent: {}
+[31.323963] (-) TimerEvent: {}
+[31.424934] (-) TimerEvent: {}
+[31.526105] (-) TimerEvent: {}
+[31.627108] (-) TimerEvent: {}
+[31.649261] (joy) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable joy_enumerate_devices\x1b[0m\n'}
+[31.727397] (-) TimerEvent: {}
+[31.829235] (-) TimerEvent: {}
+[31.930924] (-) TimerEvent: {}
+[32.032920] (-) TimerEvent: {}
+[32.068508] (joy) StdoutLine: {'line': b'[ 80%] Built target joy_enumerate_devices\n'}
+[32.133147] (-) TimerEvent: {}
+[32.234096] (-) TimerEvent: {}
+[32.334912] (-) TimerEvent: {}
+[32.435782] (-) TimerEvent: {}
+[32.536724] (-) TimerEvent: {}
+[32.637708] (-) TimerEvent: {}
+[32.738656] (-) TimerEvent: {}
+[32.839469] (-) TimerEvent: {}
+[32.940336] (-) TimerEvent: {}
+[33.041178] (-) TimerEvent: {}
+[33.142089] (-) TimerEvent: {}
+[33.242912] (-) TimerEvent: {}
+[33.343725] (-) TimerEvent: {}
+[33.444564] (-) TimerEvent: {}
+[33.545471] (-) TimerEvent: {}
+[33.646334] (-) TimerEvent: {}
+[33.747200] (-) TimerEvent: {}
+[33.848024] (-) TimerEvent: {}
+[33.948867] (-) TimerEvent: {}
+[34.049697] (-) TimerEvent: {}
+[34.150699] (-) TimerEvent: {}
+[34.251512] (-) TimerEvent: {}
+[34.352333] (-) TimerEvent: {}
+[34.453989] (-) TimerEvent: {}
+[34.554860] (-) TimerEvent: {}
+[34.655643] (-) TimerEvent: {}
+[34.756493] (-) TimerEvent: {}
+[34.857370] (-) TimerEvent: {}
+[34.958234] (-) TimerEvent: {}
+[35.059095] (-) TimerEvent: {}
+[35.159926] (-) TimerEvent: {}
+[35.260835] (-) TimerEvent: {}
+[35.361695] (-) TimerEvent: {}
+[35.462557] (-) TimerEvent: {}
+[35.563397] (-) TimerEvent: {}
+[35.664393] (-) TimerEvent: {}
+[35.770205] (-) TimerEvent: {}
+[35.871394] (-) TimerEvent: {}
+[35.973363] (-) TimerEvent: {}
+[36.075641] (-) TimerEvent: {}
+[36.176963] (-) TimerEvent: {}
+[36.279322] (-) TimerEvent: {}
+[36.380552] (-) TimerEvent: {}
+[36.481971] (-) TimerEvent: {}
+[36.583404] (-) TimerEvent: {}
+[36.684925] (-) TimerEvent: {}
+[36.786386] (-) TimerEvent: {}
+[36.887808] (-) TimerEvent: {}
+[36.989293] (-) TimerEvent: {}
+[37.090802] (-) TimerEvent: {}
+[37.192395] (-) TimerEvent: {}
+[37.295158] (-) TimerEvent: {}
+[37.397555] (-) TimerEvent: {}
+[37.499682] (-) TimerEvent: {}
+[37.601196] (-) TimerEvent: {}
+[37.702715] (-) TimerEvent: {}
+[37.804159] (-) TimerEvent: {}
+[37.905601] (-) TimerEvent: {}
+[38.006970] (-) TimerEvent: {}
+[38.108545] (-) TimerEvent: {}
+[38.211354] (-) TimerEvent: {}
+[38.314652] (-) TimerEvent: {}
+[38.417733] (-) TimerEvent: {}
+[38.520726] (-) TimerEvent: {}
+[38.625076] (-) TimerEvent: {}
+[38.726086] (-) TimerEvent: {}
+[38.827439] (-) TimerEvent: {}
+[38.928430] (-) TimerEvent: {}
+[39.029391] (-) TimerEvent: {}
+[39.131481] (-) TimerEvent: {}
+[39.234289] (-) TimerEvent: {}
+[39.336842] (-) TimerEvent: {}
+[39.439036] (-) TimerEvent: {}
+[39.540106] (-) TimerEvent: {}
+[39.640993] (-) TimerEvent: {}
+[39.742238] (-) TimerEvent: {}
+[39.843211] (-) TimerEvent: {}
+[39.945168] (-) TimerEvent: {}
+[40.046902] (-) TimerEvent: {}
+[40.147908] (-) TimerEvent: {}
+[40.249396] (-) TimerEvent: {}
+[40.351865] (-) TimerEvent: {}
+[40.453397] (-) TimerEvent: {}
+[40.555048] (-) TimerEvent: {}
+[40.656589] (-) TimerEvent: {}
+[40.758081] (-) TimerEvent: {}
+[40.859783] (-) TimerEvent: {}
+[40.961346] (-) TimerEvent: {}
+[41.062950] (-) TimerEvent: {}
+[41.164637] (-) TimerEvent: {}
+[41.266204] (-) TimerEvent: {}
+[41.367854] (-) TimerEvent: {}
+[41.469494] (-) TimerEvent: {}
+[41.571289] (-) TimerEvent: {}
+[41.672896] (-) TimerEvent: {}
+[41.774623] (-) TimerEvent: {}
+[41.875619] (-) TimerEvent: {}
+[41.978680] (-) TimerEvent: {}
+[42.079681] (-) TimerEvent: {}
+[42.180822] (-) TimerEvent: {}
+[42.283723] (-) TimerEvent: {}
+[42.385317] (-) TimerEvent: {}
+[42.486956] (-) TimerEvent: {}
+[42.588559] (-) TimerEvent: {}
+[42.690130] (-) TimerEvent: {}
+[42.791794] (-) TimerEvent: {}
+[42.893311] (-) TimerEvent: {}
+[42.994937] (-) TimerEvent: {}
+[43.096363] (-) TimerEvent: {}
+[43.198251] (-) TimerEvent: {}
+[43.299884] (-) TimerEvent: {}
+[43.402811] (-) TimerEvent: {}
+[43.504300] (-) TimerEvent: {}
+[43.605231] (-) TimerEvent: {}
+[43.706954] (-) TimerEvent: {}
+[43.809181] (-) TimerEvent: {}
+[43.914196] (-) TimerEvent: {}
+[44.015302] (-) TimerEvent: {}
+[44.116298] (-) TimerEvent: {}
+[44.218043] (-) TimerEvent: {}
+[44.318904] (-) TimerEvent: {}
+[44.419834] (-) TimerEvent: {}
+[44.520911] (-) TimerEvent: {}
+[44.621856] (-) TimerEvent: {}
+[44.723087] (-) TimerEvent: {}
+[44.824257] (-) TimerEvent: {}
+[44.925403] (-) TimerEvent: {}
+[45.026476] (-) TimerEvent: {}
+[45.127380] (-) TimerEvent: {}
+[45.228330] (-) TimerEvent: {}
+[45.329429] (-) TimerEvent: {}
+[45.431758] (-) TimerEvent: {}
+[45.533195] (-) TimerEvent: {}
+[45.634726] (-) TimerEvent: {}
+[45.736906] (-) TimerEvent: {}
+[45.838382] (-) TimerEvent: {}
+[45.939716] (-) TimerEvent: {}
+[46.041187] (-) TimerEvent: {}
+[46.143212] (-) TimerEvent: {}
+[46.244827] (-) TimerEvent: {}
+[46.346050] (-) TimerEvent: {}
+[46.447350] (-) TimerEvent: {}
+[46.548549] (-) TimerEvent: {}
+[46.649738] (-) TimerEvent: {}
+[46.751299] (-) TimerEvent: {}
+[46.852538] (-) TimerEvent: {}
+[46.954277] (-) TimerEvent: {}
+[47.055511] (-) TimerEvent: {}
+[47.156788] (-) TimerEvent: {}
+[47.258022] (-) TimerEvent: {}
+[47.358872] (-) TimerEvent: {}
+[47.459795] (-) TimerEvent: {}
+[47.560835] (-) TimerEvent: {}
+[47.661737] (-) TimerEvent: {}
+[47.762688] (-) TimerEvent: {}
+[47.863719] (-) TimerEvent: {}
+[47.965039] (-) TimerEvent: {}
+[48.066144] (-) TimerEvent: {}
+[48.167263] (-) TimerEvent: {}
+[48.269347] (-) TimerEvent: {}
+[48.370304] (-) TimerEvent: {}
+[48.471184] (-) TimerEvent: {}
+[48.572326] (-) TimerEvent: {}
+[48.673211] (-) TimerEvent: {}
+[48.774070] (-) TimerEvent: {}
+[48.874933] (-) TimerEvent: {}
+[48.975858] (-) TimerEvent: {}
+[49.076807] (-) TimerEvent: {}
+[49.182157] (-) TimerEvent: {}
+[49.283296] (-) TimerEvent: {}
+[49.384227] (-) TimerEvent: {}
+[49.489680] (-) TimerEvent: {}
+[49.590577] (-) TimerEvent: {}
+[49.691413] (-) TimerEvent: {}
+[49.792338] (-) TimerEvent: {}
+[49.893262] (-) TimerEvent: {}
+[49.994126] (-) TimerEvent: {}
+[50.094930] (-) TimerEvent: {}
+[50.195778] (-) TimerEvent: {}
+[50.296623] (-) TimerEvent: {}
+[50.397488] (-) TimerEvent: {}
+[50.498416] (-) TimerEvent: {}
+[50.599643] (-) TimerEvent: {}
+[50.701627] (-) TimerEvent: {}
+[50.803362] (-) TimerEvent: {}
+[50.904572] (-) TimerEvent: {}
+[51.005780] (-) TimerEvent: {}
+[51.106730] (-) TimerEvent: {}
+[51.207614] (-) TimerEvent: {}
+[51.308516] (-) TimerEvent: {}
+[51.410504] (-) TimerEvent: {}
+[51.511775] (-) TimerEvent: {}
+[51.613015] (-) TimerEvent: {}
+[51.714315] (-) TimerEvent: {}
+[51.815608] (-) TimerEvent: {}
+[51.917352] (-) TimerEvent: {}
+[52.018583] (-) TimerEvent: {}
+[52.119457] (-) TimerEvent: {}
+[52.220290] (-) TimerEvent: {}
+[52.321227] (-) TimerEvent: {}
+[52.423136] (-) TimerEvent: {}
+[52.525109] (-) TimerEvent: {}
+[52.626999] (-) TimerEvent: {}
+[52.728290] (-) TimerEvent: {}
+[52.829246] (-) TimerEvent: {}
+[52.930124] (-) TimerEvent: {}
+[53.030957] (-) TimerEvent: {}
+[53.131805] (-) TimerEvent: {}
+[53.232662] (-) TimerEvent: {}
+[53.333652] (-) TimerEvent: {}
+[53.434648] (-) TimerEvent: {}
+[53.535567] (-) TimerEvent: {}
+[53.636517] (-) TimerEvent: {}
+[53.737497] (-) TimerEvent: {}
+[53.838462] (-) TimerEvent: {}
+[53.939533] (-) TimerEvent: {}
+[54.040413] (-) TimerEvent: {}
+[54.141331] (-) TimerEvent: {}
+[54.242403] (-) TimerEvent: {}
+[54.343329] (-) TimerEvent: {}
+[54.444292] (-) TimerEvent: {}
+[54.545308] (-) TimerEvent: {}
+[54.646265] (-) TimerEvent: {}
+[54.747038] (-) TimerEvent: {}
+[54.847899] (-) TimerEvent: {}
+[55.542841] (-) TimerEvent: {}
+[55.644866] (-) TimerEvent: {}
+[55.745759] (-) TimerEvent: {}
+[55.846831] (-) TimerEvent: {}
+[55.947624] (-) TimerEvent: {}
+[56.048455] (-) TimerEvent: {}
+[56.149312] (-) TimerEvent: {}
+[56.250144] (-) TimerEvent: {}
+[56.351031] (-) TimerEvent: {}
+[56.451818] (-) TimerEvent: {}
+[56.552610] (-) TimerEvent: {}
+[56.653394] (-) TimerEvent: {}
+[56.754249] (-) TimerEvent: {}
+[56.855067] (-) TimerEvent: {}
+[56.955891] (-) TimerEvent: {}
+[57.056638] (-) TimerEvent: {}
+[57.157445] (-) TimerEvent: {}
+[57.258267] (-) TimerEvent: {}
+[57.359101] (-) TimerEvent: {}
+[57.459918] (-) TimerEvent: {}
+[57.560938] (-) TimerEvent: {}
+[57.662677] (-) TimerEvent: {}
+[57.763889] (-) TimerEvent: {}
+[57.865186] (-) TimerEvent: {}
+[57.967610] (-) TimerEvent: {}
+[58.069182] (-) TimerEvent: {}
+[58.170310] (-) TimerEvent: {}
+[58.271787] (-) TimerEvent: {}
+[58.372929] (-) TimerEvent: {}
+[58.474079] (-) TimerEvent: {}
+[58.495301] (joy) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libjoy.so\x1b[0m\n'}
+[58.574302] (-) TimerEvent: {}
+[58.675236] (-) TimerEvent: {}
+[58.762469] (joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgame_controller.so\x1b[0m\n'}
+[58.775626] (-) TimerEvent: {}
+[58.876804] (-) TimerEvent: {}
+[58.978154] (-) TimerEvent: {}
+[59.079647] (-) TimerEvent: {}
+[59.180960] (-) TimerEvent: {}
+[59.282402] (-) TimerEvent: {}
+[59.384317] (-) TimerEvent: {}
+[59.486122] (-) TimerEvent: {}
+[59.587495] (-) TimerEvent: {}
+[59.689380] (-) TimerEvent: {}
+[59.791131] (-) TimerEvent: {}
+[59.892938] (-) TimerEvent: {}
+[59.995147] (-) TimerEvent: {}
+[60.097207] (-) TimerEvent: {}
+[60.198540] (-) TimerEvent: {}
+[60.300480] (-) TimerEvent: {}
+[60.401675] (-) TimerEvent: {}
+[60.503233] (-) TimerEvent: {}
+[60.604058] (-) TimerEvent: {}
+[60.704889] (-) TimerEvent: {}
+[60.806440] (-) TimerEvent: {}
+[60.919231] (-) TimerEvent: {}
+[61.020154] (-) TimerEvent: {}
+[61.121279] (-) TimerEvent: {}
+[61.223353] (-) TimerEvent: {}
+[61.259748] (joy) StdoutLine: {'line': b'[100%] Built target joy\n'}
+[61.323643] (-) TimerEvent: {}
+[61.424449] (-) TimerEvent: {}
+[61.448893] (joy) StdoutLine: {'line': b'[100%] Built target game_controller\n'}
+[61.488482] (joy) CommandEnded: {'returncode': 0}
+[61.524643] (-) TimerEvent: {}
+[61.625659] (-) TimerEvent: {}
+[61.685493] (joy) JobProgress: {'identifier': 'joy', 'progress': 'install'}
+[61.718699] (joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/divspanpi2/robo_ws/build/joy'], 'cwd': '/home/divspanpi2/robo_ws/build/joy', 'env': OrderedDict([('LC_TIME', 'id_ID.UTF-8'), ('USER', 'divspanpi2'), ('SSH_CLIENT', '192.168.69.3 52108 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/divspanpi2'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/divspanpi2/robo_ws/src'), ('LESS', '-R'), ('SSH_TTY', '/dev/pts/3'), ('ZSH', '/home/divspanpi2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/divspanpi2/robo_ws/install'), ('LOGNAME', 'divspanpi2'), ('_P9K_SSH_TTY', '/dev/pts/3'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('P9K_SSH', '1'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/divspanpi2/robo_ws/build/joy'), ('SSH_CONNECTION', '192.168.69.3 52108 192.168.69.5 22'), ('_P9K_TTY', '/dev/pts/3'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/divspanpi2/robo_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/divspanpi2/robo_ws/install/rplidar_ros:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[61.727072] (-) TimerEvent: {}
+[61.753212] (joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[61.753866] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/lib/libjoy.so\n'}
+[61.802221] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/divspanpi2/robo_ws/install/joy/lib/libjoy.so" to ""\n'}
+[61.802858] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/lib/joy/joy_node\n'}
+[61.806789] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/divspanpi2/robo_ws/install/joy/lib/joy/joy_node" to ""\n'}
+[61.807342] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/lib/libgame_controller.so\n'}
+[61.827303] (-) TimerEvent: {}
+[61.856841] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/divspanpi2/robo_ws/install/joy/lib/libgame_controller.so" to ""\n'}
+[61.857447] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/lib/joy/game_controller_node\n'}
+[61.861254] (joy) StdoutLine: {'line': b'-- Set runtime path of "/home/divspanpi2/robo_ws/install/joy/lib/joy/game_controller_node" to ""\n'}
+[61.861801] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/lib/joy/joy_enumerate_devices\n'}
+[61.862783] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/include/joy\n'}
+[61.863377] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/include/joy/joy\n'}
+[61.863894] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/include/joy/joy/game_controller.hpp\n'}
+[61.864820] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/include/joy/joy/joy.hpp\n'}
+[61.865674] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/config\n'}
+[61.866454] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/config/joy-params.yaml\n'}
+[61.867425] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/launch\n'}
+[61.868051] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/launch/joy-composed-launch.py\n'}
+[61.868931] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/launch/joy-launch.py\n'}
+[61.870476] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy\n'}
+[61.871929] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy\n'}
+[61.873251] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/ament_prefix_path.sh\n'}
+[61.874333] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/ament_prefix_path.dsv\n'}
+[61.875420] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/path.sh\n'}
+[61.876401] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/environment/path.dsv\n'}
+[61.877479] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.bash\n'}
+[61.878569] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.sh\n'}
+[61.879585] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.zsh\n'}
+[61.880548] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/local_setup.dsv\n'}
+[61.881517] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/package.dsv\n'}
+[61.882989] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/packages/joy\n'}
+[61.884352] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy\n'}
+[61.885711] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_joyExport.cmake\n'}
+[61.886820] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake\n'}
+[61.887961] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake\n'}
+[61.889062] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake\n'}
+[61.890295] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[61.891420] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[61.892537] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/joyConfig.cmake\n'}
+[61.893460] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/cmake/joyConfig-version.cmake\n'}
+[61.894481] (joy) StdoutLine: {'line': b'-- Installing: /home/divspanpi2/robo_ws/install/joy/share/joy/package.xml\n'}
+[61.900338] (joy) CommandEnded: {'returncode': 0}
+[61.927711] (-) TimerEvent: {}
+[62.028506] (-) TimerEvent: {}
+[62.129183] (-) TimerEvent: {}
+[62.183009] (joy) JobEnded: {'identifier': 'joy', 'rc': 0}
+[62.185416] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/divspanpi2/robo_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/divspanpi2/robo_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/divspanpi2/robo_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/rplidar_ros
+Invoked command in '/home/divspanpi2/robo_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/rplidar_ros

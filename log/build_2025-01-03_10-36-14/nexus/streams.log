@@ -1,0 +1,28 @@
+[0.058s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/my_robot_controller:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target main_node[0m
+[0.363s] [ 25%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[0.379s] [ 75%] Built target icp_node
+[60.553s] [100%] [32m[1mLinking CXX executable main_node[0m
+[64.005s] [100%] Built target main_node
+[64.046s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/my_robot_controller:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/nexus -- -j4 -l4
+[64.089s] Invoking command in '/home/divspanpi2/robo_ws/build/nexus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/my_robot_controller:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus
+[64.118s] -- Install configuration: ""
+[64.119s] -- Execute custom install script
+[64.121s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node
+[64.122s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node
+[64.123s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus
+[64.124s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus
+[64.125s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh
+[64.126s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv
+[64.130s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh
+[64.130s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv
+[64.131s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash
+[64.131s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh
+[64.131s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh
+[64.132s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv
+[64.132s] -- Symlinking: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv
+[64.166s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus
+[64.167s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake
+[64.167s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake
+[64.168s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml
+[64.175s] Invoked command in '/home/divspanpi2/robo_ws/build/nexus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/home/divspanpi2/robo_ws/install/my_robot_controller:/home/divspanpi2/robo_ws/install/bno055:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/nexus

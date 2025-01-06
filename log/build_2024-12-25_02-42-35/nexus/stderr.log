@@ -1,0 +1,8 @@
+gmake[2]: Warning: File '/home/divspanpi2/robo_ws/src/nexus/src/main.cpp' has modification time 25177 s in the future
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/joy.hpp: No such file or directory
+    2 | #include [01;31m[K<sensor_msgs/joy.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

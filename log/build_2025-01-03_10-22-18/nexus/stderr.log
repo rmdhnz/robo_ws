@@ -1,0 +1,4 @@
+gmake[2]: Warning: File '/home/divspanpi2/robo_ws/src/nexus/src/main.cpp' has modification time 25174 s in the future
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

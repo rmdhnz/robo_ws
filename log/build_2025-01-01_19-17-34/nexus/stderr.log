@@ -1,0 +1,28 @@
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:[m[K In member function ‘[01m[Kvoid MainNode::wheel_twist_callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:54:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_local_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvx_local_[m[K’?
+   54 |       [01;31m[Kx_local_[m[K += vx_local_;
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kvx_local_[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_local_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvx_local_[m[K’?
+   56 |       [01;31m[Kx_local_[m[K += 0.0;
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kvx_local_[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:59:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_local_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvy_local_[m[K’?
+   59 |       [01;31m[Ky_local_[m[K += vy_local_;
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kvy_local_[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:61:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_local_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvy_local_[m[K’?
+   61 |       [01;31m[Ky_local_[m[K += 0.0;
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kvy_local_[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:64:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_local_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvx_local_[m[K’?
+   64 | cal position: x_local = %f, y_local = %f, yaw = %f\n", [01;31m[Kx_local_[m[K, y_local_, theta_);
+      |                                                        [01;31m[K^~~~~~~~[m[K
+      |                                                        [32m[Kvx_local_[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:64:80:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_local_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvy_local_[m[K’?
+   64 | on: x_local = %f, y_local = %f, yaw = %f\n", x_local_, [01;31m[Ky_local_[m[K, theta_);
+      |                                                        [01;31m[K^~~~~~~~[m[K
+      |                                                        [32m[Kvy_local_[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

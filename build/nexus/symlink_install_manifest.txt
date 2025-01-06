@@ -1,0 +1,17 @@
+/home/divspanpi2/robo_ws/install/nexus/lib/nexus/main_node
+/home/divspanpi2/robo_ws/install/nexus/lib/nexus/icp_node
+/home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/package_run_dependencies/nexus
+/home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/parent_prefix_path/nexus
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.sh
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/ament_prefix_path.dsv
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.sh
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/environment/path.dsv
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.bash
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.sh
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.zsh
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/local_setup.dsv
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.dsv
+/home/divspanpi2/robo_ws/install/nexus/share/ament_index/resource_index/packages/nexus
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig.cmake
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/cmake/nexusConfig-version.cmake
+/home/divspanpi2/robo_ws/install/nexus/share/nexus/package.xml

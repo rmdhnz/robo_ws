@@ -1,0 +1,84 @@
+[2.797s] Invoking command in '/home/divspanpi2/robo_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/rplidar_ros -- -j4 -l4
+[3.276s] [  5%] Built target rplidar_client
+[3.313s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[3.361s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[16.908s] In file included from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[16.909s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.909s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[16.910s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[16.911s] [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.911s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.912s]       |                [01;35m[K^[m[K
+[16.912s] In file included from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[16.913s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.913s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[16.914s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[16.915s] [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.915s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.916s]       |                [01;35m[K^[m[K
+[16.916s] In file included from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.917s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[16.917s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[16.918s] [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.919s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.919s]       |                    [01;35m[K^[m[K
+[16.920s] In file included from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.921s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[16.921s]                  from [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[16.922s] [01m[K/home/divspanpi2/robo_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.923s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.923s]       |                    [01;35m[K^[m[K
+[29.848s] [ 13%] [32m[1mLinking CXX executable rplidar_composition[0m
+[29.876s] [ 15%] [32m[1mLinking CXX executable rplidar_node[0m
+[32.162s] [100%] Built target rplidar_composition
+[32.163s] [100%] Built target rplidar_node
+[32.206s] Invoked command in '/home/divspanpi2/robo_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/divspanpi2/robo_ws/build/rplidar_ros -- -j4 -l4
+[32.574s] Invoking command in '/home/divspanpi2/robo_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/rplidar_ros
+[32.606s] -- Install configuration: ""
+[32.612s] -- Execute custom install script
+[32.618s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[32.619s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[32.621s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[32.623s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[32.624s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[32.626s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[32.628s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[32.629s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[32.631s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[32.632s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[32.634s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[32.635s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[32.637s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[32.638s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[32.639s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[32.641s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[32.642s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[32.643s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[32.645s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[32.646s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[32.648s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[32.649s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[32.651s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[32.652s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[32.655s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[32.659s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[32.660s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[32.661s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[32.662s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[32.665s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[32.667s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[32.668s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[32.669s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[32.670s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[32.672s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[32.674s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[32.675s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[32.676s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[32.677s] -- Symlinking: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[32.715s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[32.717s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.719s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.720s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[32.722s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[32.723s] -- Up-to-date symlink: /home/divspanpi2/robo_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[32.732s] Invoked command in '/home/divspanpi2/robo_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/divspanpi2/robo_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/divspanpi2/robo_ws/build/rplidar_ros

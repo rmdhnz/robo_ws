@@ -1,0 +1,30 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0  # Frekuensi update filter dalam Hz
+    sensor_timeout: 0.1  # Timeout sensor dalam detik
+
+    two_d_mode: true  # Mode 2D untuk robot darat (hanya x, y, yaw)
+    publish_tf: true  # Publikasikan transformasi antar frame
+
+    odom0: /odom  # Menggunakan topik odometry
+    odom0_config: [true, true, false,   # Posisi x dan y (aktif), z (tidak aktif)
+                   false, false, true,  # Roll, pitch (tidak aktif), yaw (aktif)
+                   true, true, false,   # Kecepatan linear x dan y (aktif), z (tidak aktif)
+                   false, false, true,  # Kecepatan angular yaw (aktif)
+                   false, false, false] # Percepatan linear (tidak digunakan)
+    odom0_queue_size: 10
+    odom0_differential: false
+    odom0_relative: true
+
+    # process_noise_covariance: [0.1, 0, 0, 0, 0, 0,  
+    #                            0, 0.1, 0, 0, 0, 0,
+    #                            0, 0, 0.05, 0, 0, 0,
+    #                            0, 0, 0, 0.05, 0, 0,
+    #                            0, 0, 0, 0, 0.05, 0,
+    #                            0, 0, 0, 0, 0, 0.01]
+    # initial_estimate_covariance: [0.1, 0, 0, 0, 0, 0,
+    #                               0, 0.1, 0, 0, 0, 0,
+    #                               0, 0, 0.1, 0, 0, 0,
+    #                               0, 0, 0, 0.1, 0, 0,
+    #                               0, 0, 0, 0, 0.1, 0,
+    #                               0, 0, 0, 0, 0, 0.1]

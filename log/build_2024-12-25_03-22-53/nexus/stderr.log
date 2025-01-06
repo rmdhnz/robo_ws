@@ -1,0 +1,10 @@
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:[m[K In member function ‘[01m[Kvoid MainNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:37:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto command_msg[m[K’
+   37 |     auto [01;31m[Kcommand_msg[m[K = std_msgs::msg::String();
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/divspanpi2/robo_ws/src/nexus/src/main.cpp:18:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> > command_msg[m[K’
+   18 |     auto [01;36m[Kcommand_msg[m[K = std_msgs::msg::String();
+      |          [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
